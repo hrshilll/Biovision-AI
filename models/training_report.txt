@@ -1,0 +1,34 @@
+============================================================
+  BIOVISION AI — MODEL TRAINING REPORT
+============================================================
+
+Dataset rows   : 31999
+Train rows     : 25599
+Test rows      : 6400
+
+Test Accuracy  : 87.95%
+CV Accuracy    : 61.57% ± 3.81%
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    Bad Form       0.88      0.84      0.86      2771
+   Good Form       0.88      0.91      0.90      3629
+
+    accuracy                           0.88      6400
+   macro avg       0.88      0.87      0.88      6400
+weighted avg       0.88      0.88      0.88      6400
+
+
+Confusion Matrix (rows=actual, cols=predicted):
+              Predicted Bad  Predicted Good
+  Actual Bad           2315            456
+  Actual Good           315           3314
+
+Feature Importances:
+  Hip_Angle           : 0.2542
+  Shoulder_Angle      : 0.2391
+  Elbow_Angle         : 0.2178
+  Knee_Angle          : 0.1952
+  Exercise            : 0.0937
+============================================================
