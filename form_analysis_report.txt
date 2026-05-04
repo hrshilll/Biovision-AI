@@ -1,0 +1,1031 @@
+========================================================================
+  BIOVISION AI — FORM ANALYSIS REPORT
+========================================================================
+
+Exercise  : Bicep_curls
+Video     : Camo Recording 2026-03-21 19-42-19.mov.mov
+Verdict   : ✅  GOOD FORM
+Frames    : 8 motion frames analysed
+  → All joint angles within acceptable range.
+
+------------------------------------------------------------------------
+
+Exercise  : Bicep_curls
+Video     : Camo Recording 2026-03-21 19-48-11.mov.mov
+Verdict   : ❌  BAD FORM
+Frames    : 74 motion frames analysed
+
+  ── Issues ──────────────────────────────────
+
+  [Elbow_Angle]
+    Why       : Elbow not fully curling or not fully extending — incomplete range of motion
+    Range     : 20° – 160°
+    Average   : 72.0°
+    Bad frames: 15 / 74 (20.3%)
+    When      : frame 1 (169.79°), frame 2 (169.46°), frame 3 (171.47°), frame 4 (171.13°), frame 5 (168.45°), frame 6 (167.42°), frame 9 (168.01°), frame 10 (169.11°) ...
+
+  [Knee_Angle]
+    Why       : Knees bending — unstable base, increases injury risk
+    Range     : 160° – 180°
+    Average   : 167.9°
+    Bad frames: 6 / 74 (8.1%)
+    When      : frame 4 (159.11°), frame 10 (151.42°), frame 15 (141.14°), frame 16 (3.66°), frame 18 (53.37°), frame 19 (7.17°)
+
+------------------------------------------------------------------------
+
+Exercise  : Bicep_curls
+Video     : Camo Recording 2026-03-21 19-50-24.mov.mov
+Verdict   : ❌  BAD FORM
+Frames    : 30 motion frames analysed
+
+  ── Issues ──────────────────────────────────
+
+  [Elbow_Angle]
+    Why       : Elbow not fully curling or not fully extending — incomplete range of motion
+    Range     : 20° – 160°
+    Average   : 163.2°
+    Bad frames: 26 / 30 (86.7%)
+    When      : frame 1058 (169.74°), frame 1059 (169.28°), frame 1060 (169.21°), frame 1061 (168.85°), frame 1432 (168.35°), frame 1433 (165.74°), frame 1476 (160.44°), frame 1719 (163.36°) ...
+
+  [Hip_Angle]
+    Why       : Torso leaning back — using body swing to lift the weight
+    Range     : 160° – 180°
+    Average   : 137.5°
+    Bad frames: 15 / 30 (50.0%)
+    When      : frame 1432 (143.33°), frame 1433 (154.32°), frame 1719 (89.19°), frame 1720 (89.39°), frame 1721 (90.36°), frame 1722 (89.37°), frame 1723 (90.7°), frame 1724 (94.8°) ...
+
+  [Knee_Angle]
+    Why       : Knees bending — unstable base, increases injury risk
+    Range     : 160° – 180°
+    Average   : 63.3°
+    Bad frames: 27 / 30 (90.0%)
+    When      : frame 1058 (4.12°), frame 1059 (5.03°), frame 1060 (7.84°), frame 1432 (17.12°), frame 1433 (16.24°), frame 1476 (7.62°), frame 1477 (17.36°), frame 1478 (17.08°) ...
+
+------------------------------------------------------------------------
+
+Exercise  : Bicep_curls
+Video     : IMG_5374.MOV
+Verdict   : ✅  GOOD FORM
+Frames    : 154 motion frames analysed
+  → All joint angles within acceptable range.
+
+------------------------------------------------------------------------
+
+Exercise  : Bicep_curls
+Video     : WhatsApp Video 2026-04-05 at 23.56.48.mp4
+Verdict   : ✅  GOOD FORM
+Frames    : 446 motion frames analysed
+
+  ── Issues ──────────────────────────────────
+
+  [Knee_Angle]
+    Why       : Knees bending — unstable base, increases injury risk
+    Range     : 160° – 180°
+    Average   : 171.1°
+    Bad frames: 3 / 446 (0.7%)
+    When      : frame 3390 (159.88°), frame 3397 (158.42°), frame 3399 (158.88°)
+
+------------------------------------------------------------------------
+
+Exercise  : Bicep_curls
+Video     : WhatsApp Video 2026-04-05 at 23.56.52.mp4
+Verdict   : ✅  GOOD FORM
+Frames    : 259 motion frames analysed
+
+  ── Issues ──────────────────────────────────
+
+  [Elbow_Angle]
+    Why       : Elbow not fully curling or not fully extending — incomplete range of motion
+    Range     : 20° – 160°
+    Average   : 98.4°
+    Bad frames: 19 / 259 (7.3%)
+    When      : frame 35 (12.8°), frame 36 (7.28°), frame 37 (2.55°), frame 38 (3.46°), frame 41 (7.44°), frame 42 (9.18°), frame 43 (11.39°), frame 44 (14.54°) ...
+
+  [Shoulder_Angle]
+    Why       : Upper arm swinging away from body — using momentum instead of muscle
+    Range     : 0° – 40°
+    Average   : 18.4°
+    Bad frames: 29 / 259 (11.2%)
+    When      : frame 33 (41.44°), frame 34 (42.86°), frame 35 (45.58°), frame 36 (47.3°), frame 37 (46.67°), frame 38 (44.39°), frame 41 (43.21°), frame 42 (43.99°) ...
+
+  [Knee_Angle]
+    Why       : Knees bending — unstable base, increases injury risk
+    Range     : 160° – 180°
+    Average   : 170.0°
+    Bad frames: 4 / 259 (1.5%)
+    When      : frame 30 (158.99°), frame 31 (159.0°), frame 103 (159.65°), frame 107 (158.39°)
+
+------------------------------------------------------------------------
+
+Exercise  : Bicep_curls
+Video     : WhatsApp Video 2026-04-05 at 23.56.57.mp4
+Verdict   : ❌  BAD FORM
+Frames    : 1871 motion frames analysed
+
+  ── Issues ──────────────────────────────────
+
+  [Elbow_Angle]
+    Why       : Elbow not fully curling or not fully extending — incomplete range of motion
+    Range     : 20° – 160°
+    Average   : 99.3°
+    Bad frames: 36 / 1871 (1.9%)
+    When      : frame 372 (160.95°), frame 373 (162.71°), frame 374 (168.97°), frame 375 (173.24°), frame 376 (173.6°), frame 377 (174.26°), frame 378 (175.18°), frame 379 (173.24°) ...
+
+  [Shoulder_Angle]
+    Why       : Upper arm swinging away from body — using momentum instead of muscle
+    Range     : 0° – 40°
+    Average   : 24.8°
+    Bad frames: 358 / 1871 (19.1%)
+    When      : frame 28 (40.16°), frame 29 (40.87°), frame 30 (43.14°), frame 31 (42.1°), frame 32 (41.79°), frame 33 (40.93°), frame 34 (40.68°), frame 70 (42.19°) ...
+
+  [Hip_Angle]
+    Why       : Torso leaning back — using body swing to lift the weight
+    Range     : 160° – 180°
+    Average   : 153.7°
+    Bad frames: 831 / 1871 (44.4%)
+    When      : frame 50 (158.45°), frame 51 (154.99°), frame 52 (152.11°), frame 53 (144.76°), frame 54 (143.37°), frame 55 (140.98°), frame 56 (135.78°), frame 57 (132.69°) ...
+
+  [Knee_Angle]
+    Why       : Knees bending — unstable base, increases injury risk
+    Range     : 160° – 180°
+    Average   : 161.6°
+    Bad frames: 673 / 1871 (36.0%)
+    When      : frame 10 (159.81°), frame 11 (158.25°), frame 13 (159.89°), frame 90 (159.89°), frame 91 (158.15°), frame 92 (157.3°), frame 93 (156.4°), frame 94 (157.12°) ...
+
+------------------------------------------------------------------------
+
+Exercise  : Bicep_curls
+Video     : WhatsApp Video 2026-04-05 at 23.56.58 (2).mp4
+Verdict   : ✅  GOOD FORM
+Frames    : 1381 motion frames analysed
+
+  ── Issues ──────────────────────────────────
+
+  [Knee_Angle]
+    Why       : Knees bending — unstable base, increases injury risk
+    Range     : 160° – 180°
+    Average   : 167.3°
+    Bad frames: 43 / 1381 (3.1%)
+    When      : frame 124 (159.3°), frame 125 (158.78°), frame 127 (158.36°), frame 292 (159.19°), frame 293 (158.12°), frame 296 (157.85°), frame 298 (157.98°), frame 299 (158.15°) ...
+
+------------------------------------------------------------------------
+
+Exercise  : Bicep_curls
+Video     : WhatsApp Video 2026-04-05 at 23.56.59.mp4
+Verdict   : ✅  GOOD FORM
+Frames    : 1378 motion frames analysed
+
+  ── Issues ──────────────────────────────────
+
+  [Elbow_Angle]
+    Why       : Elbow not fully curling or not fully extending — incomplete range of motion
+    Range     : 20° – 160°
+    Average   : 102.1°
+    Bad frames: 2 / 1378 (0.1%)
+    When      : frame 1 (165.47°), frame 2 (169.25°)
+
+  [Shoulder_Angle]
+    Why       : Upper arm swinging away from body — using momentum instead of muscle
+    Range     : 0° – 40°
+    Average   : 9.9°
+    Bad frames: 2 / 1378 (0.1%)
+    When      : frame 1 (97.24°), frame 2 (71.34°)
+
+  [Hip_Angle]
+    Why       : Torso leaning back — using body swing to lift the weight
+    Range     : 160° – 180°
+    Average   : 172.3°
+    Bad frames: 13 / 1378 (0.9%)
+    When      : frame 32 (159.39°), frame 33 (157.6°), frame 34 (157.18°), frame 35 (155.94°), frame 36 (155.51°), frame 37 (155.21°), frame 38 (154.96°), frame 39 (154.74°) ...
+
+  [Knee_Angle]
+    Why       : Knees bending — unstable base, increases injury risk
+    Range     : 160° – 180°
+    Average   : 175.9°
+    Bad frames: 14 / 1378 (1.0%)
+    When      : frame 39 (159.01°), frame 40 (154.44°), frame 41 (151.56°), frame 42 (148.29°), frame 43 (146.31°), frame 44 (146.21°), frame 45 (143.58°), frame 49 (141.76°) ...
+
+------------------------------------------------------------------------
+
+Exercise  : Bicep_curls
+Video     : WhatsApp Video 2026-04-05 at 23.57.00.mp4
+Verdict   : ❌  BAD FORM
+Frames    : 1416 motion frames analysed
+
+  ── Issues ──────────────────────────────────
+
+  [Elbow_Angle]
+    Why       : Elbow not fully curling or not fully extending — incomplete range of motion
+    Range     : 20° – 160°
+    Average   : 111.4°
+    Bad frames: 21 / 1416 (1.5%)
+    When      : frame 92 (160.24°), frame 93 (162.33°), frame 98 (162.89°), frame 160 (160.73°), frame 161 (161.82°), frame 162 (162.2°), frame 163 (161.73°), frame 403 (162.41°) ...
+
+  [Shoulder_Angle]
+    Why       : Upper arm swinging away from body — using momentum instead of muscle
+    Range     : 0° – 40°
+    Average   : 13.0°
+    Bad frames: 151 / 1416 (10.7%)
+    When      : frame 653 (41.77°), frame 654 (47.04°), frame 655 (52.27°), frame 656 (57.21°), frame 657 (60.97°), frame 658 (64.43°), frame 659 (70.64°), frame 660 (72.9°) ...
+
+  [Hip_Angle]
+    Why       : Torso leaning back — using body swing to lift the weight
+    Range     : 160° – 180°
+    Average   : 167.9°
+    Bad frames: 188 / 1416 (13.3%)
+    When      : frame 43 (157.7°), frame 44 (156.41°), frame 45 (155.16°), frame 46 (154.05°), frame 47 (154.09°), frame 48 (152.5°), frame 49 (151.62°), frame 50 (151.02°) ...
+
+  [Knee_Angle]
+    Why       : Knees bending — unstable base, increases injury risk
+    Range     : 160° – 180°
+    Average   : 170.4°
+    Bad frames: 220 / 1416 (15.5%)
+    When      : frame 1 (154.75°), frame 39 (158.34°), frame 40 (156.36°), frame 41 (153.09°), frame 42 (149.8°), frame 43 (151.14°), frame 44 (149.7°), frame 45 (148.47°) ...
+
+------------------------------------------------------------------------
+
+Exercise  : Bicep_curls
+Video     : WhatsApp Video 2026-04-06 at 00.03.11.mp4
+Verdict   : ✅  GOOD FORM
+Frames    : 1215 motion frames analysed
+
+  ── Issues ──────────────────────────────────
+
+  [Elbow_Angle]
+    Why       : Elbow not fully curling or not fully extending — incomplete range of motion
+    Range     : 20° – 160°
+    Average   : 100.8°
+    Bad frames: 2 / 1215 (0.2%)
+    When      : frame 2486 (162.97°), frame 2497 (160.5°)
+
+------------------------------------------------------------------------
+
+Exercise  : Deadlifts
+Video     : WhatsApp Video 2026-04-05 at 23.57.00 (1).mp4
+Verdict   : ❌  BAD FORM
+Frames    : 1629 motion frames analysed
+
+  ── Issues ──────────────────────────────────
+
+  [Elbow_Angle]
+    Why       : Arms bent during lift — should be straight, not pulling with arms
+    Range     : 160° – 180°
+    Average   : 148.0°
+    Bad frames: 1276 / 1629 (78.3%)
+    When      : frame 1 (159.41°), frame 2 (149.25°), frame 3 (154.18°), frame 4 (156.24°), frame 6 (159.82°), frame 7 (155.12°), frame 8 (153.04°), frame 9 (150.88°) ...
+
+  [Shoulder_Angle]
+    Why       : Shoulders rounding forward — high injury risk to upper back
+    Range     : 60° – 180°
+    Average   : 30.8°
+    Bad frames: 1302 / 1629 (79.9%)
+    When      : frame 1 (11.33°), frame 2 (10.69°), frame 3 (14.83°), frame 4 (15.19°), frame 5 (19.03°), frame 6 (20.05°), frame 7 (18.54°), frame 8 (21.35°) ...
+
+  [Hip_Angle]
+    Why       : Hips rising too fast (stiff-leg) or not hinging properly
+    Range     : 60° – 160°
+    Average   : 105.2°
+    Bad frames: 930 / 1629 (57.1%)
+    When      : frame 77 (160.08°), frame 78 (169.82°), frame 79 (174.15°), frame 80 (176.28°), frame 81 (179.96°), frame 82 (177.47°), frame 83 (175.67°), frame 84 (172.55°) ...
+
+  [Knee_Angle]
+    Why       : Knees locking out too early or not enough knee bend at start
+    Range     : 100° – 170°
+    Average   : 139.7°
+    Bad frames: 783 / 1629 (48.1%)
+    When      : frame 1 (171.78°), frame 2 (172.84°), frame 4 (171.68°), frame 51 (171.19°), frame 72 (172.18°), frame 73 (174.94°), frame 74 (179.71°), frame 75 (179.2°) ...
+
+------------------------------------------------------------------------
+
+Exercise  : Deadlifts
+Video     : WhatsApp Video 2026-04-05 at 23.57.01 (1).mp4
+Verdict   : ❌  BAD FORM
+Frames    : 1204 motion frames analysed
+
+  ── Issues ──────────────────────────────────
+
+  [Elbow_Angle]
+    Why       : Arms bent during lift — should be straight, not pulling with arms
+    Range     : 160° – 180°
+    Average   : 153.5°
+    Bad frames: 973 / 1204 (80.8%)
+    When      : frame 31 (157.19°), frame 32 (149.91°), frame 33 (145.23°), frame 34 (150.52°), frame 35 (157.57°), frame 41 (156.05°), frame 42 (154.16°), frame 43 (155.31°) ...
+
+  [Shoulder_Angle]
+    Why       : Shoulders rounding forward — high injury risk to upper back
+    Range     : 60° – 180°
+    Average   : 46.6°
+    Bad frames: 700 / 1204 (58.1%)
+    When      : frame 42 (56.44°), frame 43 (54.08°), frame 44 (51.04°), frame 45 (48.89°), frame 46 (48.24°), frame 47 (46.21°), frame 48 (37.66°), frame 49 (29.86°) ...
+
+  [Hip_Angle]
+    Why       : Hips rising too fast (stiff-leg) or not hinging properly
+    Range     : 60° – 160°
+    Average   : 91.4°
+    Bad frames: 683 / 1204 (56.7%)
+    When      : frame 1 (51.17°), frame 2 (47.7°), frame 3 (40.45°), frame 4 (38.97°), frame 7 (37.36°), frame 8 (37.3°), frame 9 (37.05°), frame 10 (37.67°) ...
+
+  [Knee_Angle]
+    Why       : Knees locking out too early or not enough knee bend at start
+    Range     : 100° – 170°
+    Average   : 143.0°
+    Bad frames: 170 / 1204 (14.1%)
+    When      : frame 1 (171.84°), frame 71 (99.95°), frame 72 (95.68°), frame 73 (93.23°), frame 74 (92.55°), frame 75 (91.92°), frame 76 (83.43°), frame 77 (77.94°) ...
+
+------------------------------------------------------------------------
+
+Exercise  : Deadlifts
+Video     : WhatsApp Video 2026-04-05 at 23.58.24.mp4
+Verdict   : ❌  BAD FORM
+Frames    : 2228 motion frames analysed
+
+  ── Issues ──────────────────────────────────
+
+  [Elbow_Angle]
+    Why       : Arms bent during lift — should be straight, not pulling with arms
+    Range     : 160° – 180°
+    Average   : 137.0°
+    Bad frames: 1778 / 2228 (79.8%)
+    When      : frame 1 (143.98°), frame 2 (144.76°), frame 40 (159.92°), frame 41 (157.98°), frame 59 (159.82°), frame 62 (159.84°), frame 63 (157.32°), frame 64 (156.41°) ...
+
+  [Shoulder_Angle]
+    Why       : Shoulders rounding forward — high injury risk to upper back
+    Range     : 60° – 180°
+    Average   : 29.1°
+    Bad frames: 2003 / 2228 (89.9%)
+    When      : frame 74 (59.78°), frame 75 (59.03°), frame 76 (59.57°), frame 77 (56.2°), frame 78 (52.74°), frame 79 (51.07°), frame 80 (50.28°), frame 81 (48.39°) ...
+
+  [Hip_Angle]
+    Why       : Hips rising too fast (stiff-leg) or not hinging properly
+    Range     : 60° – 160°
+    Average   : 124.9°
+    Bad frames: 942 / 2228 (42.3%)
+    When      : frame 1 (22.74°), frame 2 (3.13°), frame 3 (2.11°), frame 4 (7.7°), frame 5 (20.7°), frame 6 (21.53°), frame 7 (35.59°), frame 8 (48.73°) ...
+
+  [Knee_Angle]
+    Why       : Knees locking out too early or not enough knee bend at start
+    Range     : 100° – 170°
+    Average   : 141.2°
+    Bad frames: 114 / 2228 (5.1%)
+    When      : frame 5 (99.59°), frame 11 (87.93°), frame 14 (94.64°), frame 15 (67.31°), frame 16 (60.3°), frame 17 (69.61°), frame 26 (177.82°), frame 29 (173.57°) ...
+
+------------------------------------------------------------------------
+
+Exercise  : Deadlifts
+Video     : WhatsApp Video 2026-04-06 at 00.00.56.mp4
+Verdict   : ✅  GOOD FORM
+Frames    : 1866 motion frames analysed
+
+  ── Issues ──────────────────────────────────
+
+  [Elbow_Angle]
+    Why       : Arms bent during lift — should be straight, not pulling with arms
+    Range     : 160° – 180°
+    Average   : 156.3°
+    Bad frames: 1294 / 1866 (69.3%)
+    When      : frame 1 (132.92°), frame 2 (136.38°), frame 3 (144.61°), frame 4 (121.12°), frame 5 (121.58°), frame 6 (125.85°), frame 7 (133.42°), frame 8 (141.98°) ...
+
+  [Shoulder_Angle]
+    Why       : Shoulders rounding forward — high injury risk to upper back
+    Range     : 60° – 180°
+    Average   : 34.4°
+    Bad frames: 1724 / 1866 (92.4%)
+    When      : frame 1 (27.81°), frame 2 (21.98°), frame 3 (9.2°), frame 4 (18.05°), frame 5 (10.86°), frame 6 (5.97°), frame 7 (5.68°), frame 8 (12.61°) ...
+
+  [Hip_Angle]
+    Why       : Hips rising too fast (stiff-leg) or not hinging properly
+    Range     : 60° – 160°
+    Average   : 102.9°
+    Bad frames: 541 / 1866 (29.0%)
+    When      : frame 1 (171.48°), frame 3 (173.65°), frame 4 (162.16°), frame 173 (59.81°), frame 174 (56.74°), frame 175 (54.16°), frame 176 (53.49°), frame 177 (52.71°) ...
+
+  [Knee_Angle]
+    Why       : Knees locking out too early or not enough knee bend at start
+    Range     : 100° – 170°
+    Average   : 134.6°
+    Bad frames: 141 / 1866 (7.6%)
+    When      : frame 1 (179.8°), frame 4 (179.84°), frame 181 (98.51°), frame 184 (95.99°), frame 193 (99.65°), frame 336 (99.71°), frame 337 (97.29°), frame 340 (93.55°) ...
+
+------------------------------------------------------------------------
+
+Exercise  : Deadlifts
+Video     : WhatsApp Video 2026-04-06 at 00.03.01.mp4
+Verdict   : ❌  BAD FORM
+Frames    : 2362 motion frames analysed
+
+  ── Issues ──────────────────────────────────
+
+  [Elbow_Angle]
+    Why       : Arms bent during lift — should be straight, not pulling with arms
+    Range     : 160° – 180°
+    Average   : 138.2°
+    Bad frames: 2139 / 2362 (90.6%)
+    When      : frame 1 (129.88°), frame 2 (139.5°), frame 3 (150.96°), frame 4 (151.34°), frame 5 (146.88°), frame 6 (143.24°), frame 7 (147.06°), frame 8 (148.48°) ...
+
+  [Shoulder_Angle]
+    Why       : Shoulders rounding forward — high injury risk to upper back
+    Range     : 60° – 180°
+    Average   : 31.8°
+    Bad frames: 2015 / 2362 (85.3%)
+    When      : frame 1 (23.69°), frame 2 (13.87°), frame 3 (8.69°), frame 4 (7.0°), frame 5 (5.7°), frame 6 (3.76°), frame 7 (0.46°), frame 8 (2.26°) ...
+
+  [Hip_Angle]
+    Why       : Hips rising too fast (stiff-leg) or not hinging properly
+    Range     : 60° – 160°
+    Average   : 95.9°
+    Bad frames: 1304 / 2362 (55.2%)
+    When      : frame 1 (176.84°), frame 14 (163.01°), frame 15 (164.88°), frame 16 (166.91°), frame 17 (170.35°), frame 18 (171.65°), frame 19 (173.75°), frame 21 (176.68°) ...
+
+  [Knee_Angle]
+    Why       : Knees locking out too early or not enough knee bend at start
+    Range     : 100° – 170°
+    Average   : 134.3°
+    Bad frames: 1031 / 2362 (43.6%)
+    When      : frame 2 (172.83°), frame 3 (172.35°), frame 4 (177.73°), frame 5 (175.48°), frame 6 (172.56°), frame 7 (177.54°), frame 8 (177.17°), frame 9 (177.03°) ...
+
+------------------------------------------------------------------------
+
+Exercise  : Deadlifts
+Video     : WhatsApp Video 2026-04-06 at 00.03.02.mp4
+Verdict   : ❌  BAD FORM
+Frames    : 1843 motion frames analysed
+
+  ── Issues ──────────────────────────────────
+
+  [Elbow_Angle]
+    Why       : Arms bent during lift — should be straight, not pulling with arms
+    Range     : 160° – 180°
+    Average   : 142.2°
+    Bad frames: 1549 / 1843 (84.0%)
+    When      : frame 1 (152.36°), frame 2 (159.02°), frame 11 (158.25°), frame 12 (157.41°), frame 13 (156.77°), frame 14 (157.7°), frame 31 (159.46°), frame 34 (158.55°) ...
+
+  [Shoulder_Angle]
+    Why       : Shoulders rounding forward — high injury risk to upper back
+    Range     : 60° – 180°
+    Average   : 34.2°
+    Bad frames: 1557 / 1843 (84.5%)
+    When      : frame 1 (3.25°), frame 2 (12.28°), frame 3 (21.6°), frame 4 (28.05°), frame 5 (31.41°), frame 6 (34.95°), frame 7 (38.3°), frame 8 (42.4°) ...
+
+  [Hip_Angle]
+    Why       : Hips rising too fast (stiff-leg) or not hinging properly
+    Range     : 60° – 160°
+    Average   : 96.7°
+    Bad frames: 995 / 1843 (54.0%)
+    When      : frame 1 (164.27°), frame 11 (59.49°), frame 12 (59.76°), frame 14 (58.1°), frame 16 (48.54°), frame 17 (46.26°), frame 18 (42.97°), frame 19 (39.47°) ...
+
+  [Knee_Angle]
+    Why       : Knees locking out too early or not enough knee bend at start
+    Range     : 100° – 170°
+    Average   : 135.3°
+    Bad frames: 898 / 1843 (48.7%)
+    When      : frame 1 (170.11°), frame 2 (176.72°), frame 20 (92.35°), frame 23 (94.83°), frame 24 (93.6°), frame 26 (93.08°), frame 28 (89.94°), frame 29 (86.27°) ...
+
+------------------------------------------------------------------------
+
+Exercise  : Deadlifts
+Video     : WhatsApp Video 2026-04-06 at 00.03.03.mp4
+Verdict   : ✅  GOOD FORM
+Frames    : 2341 motion frames analysed
+
+  ── Issues ──────────────────────────────────
+
+  [Elbow_Angle]
+    Why       : Arms bent during lift — should be straight, not pulling with arms
+    Range     : 160° – 180°
+    Average   : 143.0°
+    Bad frames: 2057 / 2341 (87.9%)
+    When      : frame 1 (148.4°), frame 2 (146.37°), frame 3 (147.03°), frame 4 (144.64°), frame 6 (146.51°), frame 7 (145.34°), frame 11 (145.1°), frame 169 (143.85°) ...
+
+  [Shoulder_Angle]
+    Why       : Shoulders rounding forward — high injury risk to upper back
+    Range     : 60° – 180°
+    Average   : 35.4°
+    Bad frames: 1884 / 2341 (80.5%)
+    When      : frame 1 (2.36°), frame 2 (5.24°), frame 3 (6.62°), frame 4 (8.21°), frame 6 (6.59°), frame 7 (6.7°), frame 11 (6.11°), frame 169 (2.74°) ...
+
+  [Hip_Angle]
+    Why       : Hips rising too fast (stiff-leg) or not hinging properly
+    Range     : 60° – 160°
+    Average   : 105.2°
+    Bad frames: 1220 / 2341 (52.1%)
+    When      : frame 1 (174.17°), frame 2 (171.33°), frame 3 (166.68°), frame 4 (167.04°), frame 6 (169.29°), frame 7 (169.4°), frame 11 (170.83°), frame 169 (178.51°) ...
+
+  [Knee_Angle]
+    Why       : Knees locking out too early or not enough knee bend at start
+    Range     : 100° – 170°
+    Average   : 129.9°
+    Bad frames: 895 / 2341 (38.2%)
+    When      : frame 3 (172.61°), frame 4 (173.88°), frame 6 (172.77°), frame 7 (176.27°), frame 11 (174.43°), frame 169 (173.33°), frame 170 (170.17°), frame 445 (99.56°) ...
+
+------------------------------------------------------------------------
+
+Exercise  : Deadlifts
+Video     : WhatsApp Video 2026-04-06 at 00.03.04.mp4
+Verdict   : ✅  GOOD FORM
+Frames    : 1535 motion frames analysed
+
+  ── Issues ──────────────────────────────────
+
+  [Elbow_Angle]
+    Why       : Arms bent during lift — should be straight, not pulling with arms
+    Range     : 160° – 180°
+    Average   : 160.5°
+    Bad frames: 699 / 1535 (45.5%)
+    When      : frame 1 (138.12°), frame 2 (150.81°), frame 3 (150.24°), frame 4 (148.91°), frame 5 (147.29°), frame 6 (158.73°), frame 8 (159.12°), frame 9 (158.58°) ...
+
+  [Shoulder_Angle]
+    Why       : Shoulders rounding forward — high injury risk to upper back
+    Range     : 60° – 180°
+    Average   : 39.7°
+    Bad frames: 1269 / 1535 (82.7%)
+    When      : frame 1 (1.74°), frame 2 (9.89°), frame 3 (8.73°), frame 4 (10.11°), frame 5 (10.25°), frame 6 (18.01°), frame 7 (21.82°), frame 8 (23.24°) ...
+
+  [Hip_Angle]
+    Why       : Hips rising too fast (stiff-leg) or not hinging properly
+    Range     : 60° – 160°
+    Average   : 100.0°
+    Bad frames: 506 / 1535 (33.0%)
+    When      : frame 35 (59.47°), frame 36 (57.41°), frame 38 (53.76°), frame 39 (51.59°), frame 40 (48.84°), frame 41 (47.3°), frame 42 (46.0°), frame 43 (45.67°) ...
+
+  [Knee_Angle]
+    Why       : Knees locking out too early or not enough knee bend at start
+    Range     : 100° – 170°
+    Average   : 142.8°
+    Bad frames: 139 / 1535 (9.1%)
+    When      : frame 1 (171.72°), frame 2 (173.24°), frame 3 (174.45°), frame 4 (170.03°), frame 5 (171.06°), frame 116 (170.49°), frame 408 (171.13°), frame 410 (171.47°) ...
+
+------------------------------------------------------------------------
+
+Exercise  : Deadlifts
+Video     : WhatsApp Video 2026-04-06 at 00.03.05.mp4
+Verdict   : ✅  GOOD FORM
+Frames    : 1584 motion frames analysed
+
+  ── Issues ──────────────────────────────────
+
+  [Elbow_Angle]
+    Why       : Arms bent during lift — should be straight, not pulling with arms
+    Range     : 160° – 180°
+    Average   : 152.2°
+    Bad frames: 1427 / 1584 (90.1%)
+    When      : frame 3 (158.73°), frame 4 (157.99°), frame 5 (156.56°), frame 6 (155.4°), frame 7 (153.74°), frame 8 (151.48°), frame 9 (152.28°), frame 10 (152.74°) ...
+
+  [Shoulder_Angle]
+    Why       : Shoulders rounding forward — high injury risk to upper back
+    Range     : 60° – 180°
+    Average   : 43.2°
+    Bad frames: 1171 / 1584 (73.9%)
+    When      : frame 1 (25.57°), frame 2 (35.08°), frame 3 (32.44°), frame 4 (35.22°), frame 5 (39.83°), frame 6 (44.78°), frame 7 (48.21°), frame 8 (49.65°) ...
+
+  [Hip_Angle]
+    Why       : Hips rising too fast (stiff-leg) or not hinging properly
+    Range     : 60° – 160°
+    Average   : 82.2°
+    Bad frames: 689 / 1584 (43.5%)
+    When      : frame 6 (50.34°), frame 7 (54.82°), frame 9 (49.78°), frame 10 (40.29°), frame 11 (37.11°), frame 12 (34.78°), frame 13 (31.18°), frame 14 (29.91°) ...
+
+  [Knee_Angle]
+    Why       : Knees locking out too early or not enough knee bend at start
+    Range     : 100° – 170°
+    Average   : 104.3°
+    Bad frames: 777 / 1584 (49.1%)
+    When      : frame 2 (74.27°), frame 3 (91.52°), frame 4 (84.5°), frame 5 (77.55°), frame 6 (87.84°), frame 7 (99.27°), frame 9 (98.12°), frame 10 (87.06°) ...
+
+------------------------------------------------------------------------
+
+Exercise  : Deadlifts
+Video     : WhatsApp Video 2026-04-06 at 00.03.06.mp4
+Verdict   : ✅  GOOD FORM
+Frames    : 2109 motion frames analysed
+
+  ── Issues ──────────────────────────────────
+
+  [Elbow_Angle]
+    Why       : Arms bent during lift — should be straight, not pulling with arms
+    Range     : 160° – 180°
+    Average   : 138.6°
+    Bad frames: 2068 / 2109 (98.1%)
+    When      : frame 8 (153.37°), frame 9 (145.69°), frame 10 (143.28°), frame 11 (140.84°), frame 13 (143.63°), frame 14 (143.64°), frame 15 (144.14°), frame 16 (145.94°) ...
+
+  [Shoulder_Angle]
+    Why       : Shoulders rounding forward — high injury risk to upper back
+    Range     : 60° – 180°
+    Average   : 36.6°
+    Bad frames: 1639 / 2109 (77.7%)
+    When      : frame 2 (57.35°), frame 8 (58.62°), frame 9 (56.14°), frame 10 (55.03°), frame 11 (53.82°), frame 13 (54.32°), frame 14 (52.96°), frame 15 (51.96°) ...
+
+  [Hip_Angle]
+    Why       : Hips rising too fast (stiff-leg) or not hinging properly
+    Range     : 60° – 160°
+    Average   : 88.0°
+    Bad frames: 639 / 2109 (30.3%)
+    When      : frame 146 (58.34°), frame 147 (57.03°), frame 149 (53.66°), frame 150 (51.72°), frame 151 (50.07°), frame 152 (48.51°), frame 153 (47.32°), frame 154 (46.65°) ...
+
+  [Knee_Angle]
+    Why       : Knees locking out too early or not enough knee bend at start
+    Range     : 100° – 170°
+    Average   : 166.1°
+    Bad frames: 1133 / 2109 (53.7%)
+    When      : frame 54 (170.67°), frame 55 (172.43°), frame 57 (174.02°), frame 59 (175.75°), frame 60 (174.93°), frame 62 (176.47°), frame 81 (178.49°), frame 98 (178.25°) ...
+
+------------------------------------------------------------------------
+
+Exercise  : Deadlifts
+Video     : WhatsApp Video 2026-04-06 at 00.03.07.mp4
+Verdict   : ✅  GOOD FORM
+Frames    : 1598 motion frames analysed
+
+  ── Issues ──────────────────────────────────
+
+  [Elbow_Angle]
+    Why       : Arms bent during lift — should be straight, not pulling with arms
+    Range     : 160° – 180°
+    Average   : 163.7°
+    Bad frames: 519 / 1598 (32.5%)
+    When      : frame 1 (149.32°), frame 2 (154.08°), frame 3 (156.2°), frame 4 (158.28°), frame 5 (159.66°), frame 120 (159.9°), frame 121 (156.1°), frame 122 (155.8°) ...
+
+  [Shoulder_Angle]
+    Why       : Shoulders rounding forward — high injury risk to upper back
+    Range     : 60° – 180°
+    Average   : 41.2°
+    Bad frames: 1219 / 1598 (76.3%)
+    When      : frame 1 (21.97°), frame 2 (20.35°), frame 3 (17.95°), frame 4 (16.27°), frame 5 (15.88°), frame 6 (16.7°), frame 7 (16.67°), frame 8 (17.61°) ...
+
+  [Hip_Angle]
+    Why       : Hips rising too fast (stiff-leg) or not hinging properly
+    Range     : 60° – 160°
+    Average   : 96.5°
+    Bad frames: 603 / 1598 (37.7%)
+    When      : frame 4 (161.92°), frame 5 (167.06°), frame 6 (168.11°), frame 7 (168.69°), frame 8 (168.84°), frame 10 (167.11°), frame 12 (167.04°), frame 13 (166.34°) ...
+
+  [Knee_Angle]
+    Why       : Knees locking out too early or not enough knee bend at start
+    Range     : 100° – 170°
+    Average   : 146.4°
+    Bad frames: 142 / 1598 (8.9%)
+    When      : frame 103 (173.38°), frame 110 (176.39°), frame 114 (172.95°), frame 115 (171.98°), frame 116 (171.26°), frame 117 (171.4°), frame 118 (171.2°), frame 119 (170.73°) ...
+
+------------------------------------------------------------------------
+
+Exercise  : Planks
+Video     : WhatsApp Video 2026-04-05 at 23.56.56 (1).mp4
+Verdict   : ✅  GOOD FORM
+Frames    : 352 motion frames analysed
+
+  ── Issues ──────────────────────────────────
+
+  [Elbow_Angle]
+    Why       : Elbows not at 90° — incorrect forearm plank position
+    Range     : 80° – 100°
+    Average   : 93.2°
+    Bad frames: 70 / 352 (19.9%)
+    When      : frame 1 (179.35°), frame 2 (153.84°), frame 3 (177.91°), frame 4 (143.71°), frame 5 (133.08°), frame 7 (171.85°), frame 8 (54.21°), frame 9 (0.24°) ...
+
+  [Shoulder_Angle]
+    Why       : Shoulders not stacked over elbows — misaligned upper body
+    Range     : 80° – 100°
+    Average   : 91.6°
+    Bad frames: 273 / 352 (77.6%)
+    When      : frame 1 (0.74°), frame 2 (3.09°), frame 3 (8.02°), frame 4 (2.97°), frame 5 (6.67°), frame 6 (23.78°), frame 7 (40.04°), frame 8 (20.67°) ...
+
+  [Hip_Angle]
+    Why       : Hips sagging down or piking up — body not in a straight line
+    Range     : 160° – 180°
+    Average   : 128.8°
+    Bad frames: 298 / 352 (84.7%)
+    When      : frame 6 (156.81°), frame 7 (130.41°), frame 9 (136.27°), frame 38 (146.17°), frame 40 (141.61°), frame 41 (143.23°), frame 42 (142.94°), frame 43 (145.69°) ...
+
+  [Knee_Angle]
+    Why       : Knees bent — legs should be fully extended in a plank
+    Range     : 160° – 180°
+    Average   : 146.8°
+    Bad frames: 274 / 352 (77.8%)
+    When      : frame 6 (130.63°), frame 7 (114.58°), frame 9 (145.02°), frame 38 (158.1°), frame 45 (158.97°), frame 46 (156.29°), frame 47 (154.0°), frame 48 (148.0°) ...
+
+------------------------------------------------------------------------
+
+Exercise  : Planks
+Video     : WhatsApp Video 2026-04-05 at 23.56.56 (2).mp4
+Verdict   : ❌  BAD FORM
+Frames    : 290 motion frames analysed
+
+  ── Issues ──────────────────────────────────
+
+  [Elbow_Angle]
+    Why       : Elbows not at 90° — incorrect forearm plank position
+    Range     : 80° – 100°
+    Average   : 88.5°
+    Bad frames: 110 / 290 (37.9%)
+    When      : frame 1 (77.29°), frame 2 (79.88°), frame 3 (78.57°), frame 4 (78.84°), frame 5 (77.83°), frame 6 (78.1°), frame 7 (76.36°), frame 8 (76.39°) ...
+
+  [Shoulder_Angle]
+    Why       : Shoulders not stacked over elbows — misaligned upper body
+    Range     : 80° – 100°
+    Average   : 114.8°
+    Bad frames: 268 / 290 (92.4%)
+    When      : frame 3 (78.87°), frame 4 (76.28°), frame 5 (73.54°), frame 6 (71.21°), frame 7 (70.46°), frame 8 (69.19°), frame 14 (67.73°), frame 51 (64.24°) ...
+
+  [Hip_Angle]
+    Why       : Hips sagging down or piking up — body not in a straight line
+    Range     : 160° – 180°
+    Average   : 107.1°
+    Bad frames: 235 / 290 (81.0%)
+    When      : frame 1 (136.22°), frame 2 (152.54°), frame 3 (159.01°), frame 495 (158.37°), frame 496 (149.11°), frame 497 (145.23°), frame 498 (144.7°), frame 499 (141.49°) ...
+
+  [Knee_Angle]
+    Why       : Knees bent — legs should be fully extended in a plank
+    Range     : 160° – 180°
+    Average   : 145.6°
+    Bad frames: 199 / 290 (68.6%)
+    When      : frame 1 (151.15°), frame 284 (157.05°), frame 285 (151.17°), frame 286 (149.05°), frame 287 (146.3°), frame 291 (141.02°), frame 294 (137.74°), frame 408 (139.74°) ...
+
+------------------------------------------------------------------------
+
+Exercise  : Planks
+Video     : WhatsApp Video 2026-04-05 at 23.56.56.mp4
+Verdict   : ❌  BAD FORM
+Frames    : 330 motion frames analysed
+
+  ── Issues ──────────────────────────────────
+
+  [Elbow_Angle]
+    Why       : Elbows not at 90° — incorrect forearm plank position
+    Range     : 80° – 100°
+    Average   : 114.5°
+    Bad frames: 252 / 330 (76.4%)
+    When      : frame 1 (106.34°), frame 2 (109.89°), frame 3 (114.46°), frame 5 (115.69°), frame 6 (118.27°), frame 10 (121.71°), frame 12 (124.76°), frame 16 (123.21°) ...
+
+  [Shoulder_Angle]
+    Why       : Shoulders not stacked over elbows — misaligned upper body
+    Range     : 80° – 100°
+    Average   : 111.1°
+    Bad frames: 319 / 330 (96.7%)
+    When      : frame 1 (152.42°), frame 2 (157.81°), frame 3 (160.95°), frame 5 (164.31°), frame 6 (165.26°), frame 10 (167.16°), frame 12 (167.73°), frame 16 (166.38°) ...
+
+  [Hip_Angle]
+    Why       : Hips sagging down or piking up — body not in a straight line
+    Range     : 160° – 180°
+    Average   : 78.6°
+    Bad frames: 326 / 330 (98.8%)
+    When      : frame 1 (74.53°), frame 2 (69.31°), frame 3 (68.32°), frame 5 (66.83°), frame 6 (65.66°), frame 10 (66.6°), frame 12 (65.67°), frame 16 (62.73°) ...
+
+  [Knee_Angle]
+    Why       : Knees bent — legs should be fully extended in a plank
+    Range     : 160° – 180°
+    Average   : 147.2°
+    Bad frames: 141 / 330 (42.7%)
+    When      : frame 164 (157.86°), frame 301 (159.98°), frame 302 (159.75°), frame 333 (156.21°), frame 334 (156.53°), frame 335 (156.67°), frame 336 (155.91°), frame 337 (156.02°) ...
+
+------------------------------------------------------------------------
+
+Exercise  : Planks
+Video     : WhatsApp Video 2026-04-05 at 23.57.03 (1).mp4
+Verdict   : ✅  GOOD FORM
+Frames    : 19 motion frames analysed
+
+  ── Issues ──────────────────────────────────
+
+  [Elbow_Angle]
+    Why       : Elbows not at 90° — incorrect forearm plank position
+    Range     : 80° – 100°
+    Average   : 97.8°
+    Bad frames: 2 / 19 (10.5%)
+    When      : frame 32 (104.06°), frame 292 (103.32°)
+
+  [Hip_Angle]
+    Why       : Hips sagging down or piking up — body not in a straight line
+    Range     : 160° – 180°
+    Average   : 128.2°
+    Bad frames: 19 / 19 (100.0%)
+    When      : frame 1 (130.2°), frame 2 (128.98°), frame 11 (125.56°), frame 32 (129.19°), frame 292 (133.56°), frame 556 (133.06°), frame 684 (132.31°), frame 797 (130.12°) ...
+
+  [Knee_Angle]
+    Why       : Knees bent — legs should be fully extended in a plank
+    Range     : 160° – 180°
+    Average   : 164.4°
+    Bad frames: 5 / 19 (26.3%)
+    When      : frame 1509 (159.89°), frame 1684 (155.46°), frame 1831 (156.04°), frame 1832 (154.83°), frame 1833 (153.26°)
+
+------------------------------------------------------------------------
+
+Exercise  : Planks
+Video     : WhatsApp Video 2026-04-05 at 23.57.04 (1).mp4
+Verdict   : ❌  BAD FORM
+Frames    : 346 motion frames analysed
+
+  ── Issues ──────────────────────────────────
+
+  [Elbow_Angle]
+    Why       : Elbows not at 90° — incorrect forearm plank position
+    Range     : 80° – 100°
+    Average   : 80.0°
+    Bad frames: 208 / 346 (60.1%)
+    When      : frame 1 (123.26°), frame 2 (131.71°), frame 3 (147.58°), frame 4 (152.8°), frame 5 (133.87°), frame 6 (152.13°), frame 8 (76.64°), frame 9 (77.04°) ...
+
+  [Shoulder_Angle]
+    Why       : Shoulders not stacked over elbows — misaligned upper body
+    Range     : 80° – 100°
+    Average   : 102.9°
+    Bad frames: 184 / 346 (53.2%)
+    When      : frame 1 (158.52°), frame 2 (152.66°), frame 3 (147.41°), frame 4 (168.97°), frame 5 (127.38°), frame 6 (22.45°), frame 8 (117.16°), frame 9 (119.18°) ...
+
+  [Hip_Angle]
+    Why       : Hips sagging down or piking up — body not in a straight line
+    Range     : 160° – 180°
+    Average   : 120.3°
+    Bad frames: 346 / 346 (100.0%)
+    When      : frame 1 (17.86°), frame 2 (21.7°), frame 3 (4.53°), frame 4 (2.87°), frame 5 (25.2°), frame 6 (139.68°), frame 8 (111.83°), frame 9 (107.35°) ...
+
+  [Knee_Angle]
+    Why       : Knees bent — legs should be fully extended in a plank
+    Range     : 160° – 180°
+    Average   : 151.5°
+    Bad frames: 318 / 346 (91.9%)
+    When      : frame 2 (77.21°), frame 3 (133.52°), frame 4 (108.19°), frame 5 (116.46°), frame 6 (63.67°), frame 8 (158.3°), frame 9 (157.48°), frame 10 (156.43°) ...
+
+------------------------------------------------------------------------
+
+Exercise  : Planks
+Video     : WhatsApp Video 2026-04-05 at 23.57.04.mp4
+Verdict   : ✅  GOOD FORM
+Frames    : 359 motion frames analysed
+
+  ── Issues ──────────────────────────────────
+
+  [Elbow_Angle]
+    Why       : Elbows not at 90° — incorrect forearm plank position
+    Range     : 80° – 100°
+    Average   : 80.3°
+    Bad frames: 169 / 359 (47.1%)
+    When      : frame 1019 (78.99°), frame 1020 (79.07°), frame 1027 (79.45°), frame 1028 (79.18°), frame 1029 (78.59°), frame 1031 (78.0°), frame 1033 (78.49°), frame 1034 (79.05°) ...
+
+  [Shoulder_Angle]
+    Why       : Shoulders not stacked over elbows — misaligned upper body
+    Range     : 80° – 100°
+    Average   : 94.8°
+    Bad frames: 98 / 359 (27.3%)
+    When      : frame 6 (100.17°), frame 96 (100.1°), frame 100 (101.07°), frame 101 (101.09°), frame 104 (101.7°), frame 106 (101.92°), frame 107 (101.66°), frame 110 (101.28°) ...
+
+  [Hip_Angle]
+    Why       : Hips sagging down or piking up — body not in a straight line
+    Range     : 160° – 180°
+    Average   : 126.1°
+    Bad frames: 356 / 359 (99.2%)
+    When      : frame 1 (120.49°), frame 2 (123.28°), frame 3 (122.03°), frame 4 (121.71°), frame 5 (122.2°), frame 6 (121.34°), frame 7 (123.24°), frame 11 (128.19°) ...
+
+  [Knee_Angle]
+    Why       : Knees bent — legs should be fully extended in a plank
+    Range     : 160° – 180°
+    Average   : 143.3°
+    Bad frames: 349 / 359 (97.2%)
+    When      : frame 1 (156.36°), frame 2 (155.71°), frame 3 (158.34°), frame 4 (157.01°), frame 5 (153.84°), frame 6 (153.02°), frame 7 (153.52°), frame 11 (152.72°) ...
+
+------------------------------------------------------------------------
+
+Exercise  : Planks
+Video     : WhatsApp Video 2026-04-05 at 23.57.05 (1).mp4
+Verdict   : ✅  GOOD FORM
+Frames    : 177 motion frames analysed
+
+  ── Issues ──────────────────────────────────
+
+  [Elbow_Angle]
+    Why       : Elbows not at 90° — incorrect forearm plank position
+    Range     : 80° – 100°
+    Average   : 84.4°
+    Bad frames: 24 / 177 (13.6%)
+    When      : frame 1 (77.55°), frame 2 (76.85°), frame 186 (79.21°), frame 869 (79.91°), frame 884 (78.65°), frame 885 (78.61°), frame 886 (78.96°), frame 888 (79.91°) ...
+
+  [Shoulder_Angle]
+    Why       : Shoulders not stacked over elbows — misaligned upper body
+    Range     : 80° – 100°
+    Average   : 108.9°
+    Bad frames: 136 / 177 (76.8%)
+    When      : frame 6 (101.17°), frame 9 (101.61°), frame 10 (102.91°), frame 11 (103.62°), frame 18 (103.38°), frame 50 (106.25°), frame 61 (110.68°), frame 62 (111.59°) ...
+
+  [Hip_Angle]
+    Why       : Hips sagging down or piking up — body not in a straight line
+    Range     : 160° – 180°
+    Average   : 112.0°
+    Bad frames: 177 / 177 (100.0%)
+    When      : frame 1 (134.76°), frame 2 (127.88°), frame 3 (128.09°), frame 4 (125.96°), frame 5 (124.93°), frame 6 (123.16°), frame 9 (123.3°), frame 10 (121.61°) ...
+
+  [Knee_Angle]
+    Why       : Knees bent — legs should be fully extended in a plank
+    Range     : 160° – 180°
+    Average   : 148.4°
+    Bad frames: 172 / 177 (97.2%)
+    When      : frame 1 (151.9°), frame 2 (146.36°), frame 3 (145.21°), frame 4 (145.11°), frame 5 (143.39°), frame 6 (142.15°), frame 9 (143.94°), frame 10 (142.76°) ...
+
+------------------------------------------------------------------------
+
+Exercise  : Planks
+Video     : WhatsApp Video 2026-04-05 at 23.57.05 (2).mp4
+Verdict   : ❌  BAD FORM
+Frames    : 105 motion frames analysed
+
+  ── Issues ──────────────────────────────────
+
+  [Elbow_Angle]
+    Why       : Elbows not at 90° — incorrect forearm plank position
+    Range     : 80° – 100°
+    Average   : 97.2°
+    Bad frames: 21 / 105 (20.0%)
+    When      : frame 4 (101.93°), frame 19 (100.98°), frame 188 (102.25°), frame 197 (101.22°), frame 206 (100.59°), frame 378 (100.52°), frame 392 (104.43°), frame 395 (104.34°) ...
+
+  [Shoulder_Angle]
+    Why       : Shoulders not stacked over elbows — misaligned upper body
+    Range     : 80° – 100°
+    Average   : 107.6°
+    Bad frames: 89 / 105 (84.8%)
+    When      : frame 1 (108.53°), frame 2 (112.0°), frame 3 (112.17°), frame 4 (111.94°), frame 5 (110.69°), frame 6 (109.6°), frame 7 (107.49°), frame 8 (107.54°) ...
+
+  [Hip_Angle]
+    Why       : Hips sagging down or piking up — body not in a straight line
+    Range     : 160° – 180°
+    Average   : 117.1°
+    Bad frames: 105 / 105 (100.0%)
+    When      : frame 1 (121.6°), frame 2 (111.53°), frame 3 (111.55°), frame 4 (111.89°), frame 5 (112.75°), frame 6 (114.38°), frame 7 (116.42°), frame 8 (116.32°) ...
+
+  [Knee_Angle]
+    Why       : Knees bent — legs should be fully extended in a plank
+    Range     : 160° – 180°
+    Average   : 161.9°
+    Bad frames: 33 / 105 (31.4%)
+    When      : frame 197 (154.43°), frame 206 (154.93°), frame 210 (158.44°), frame 351 (152.89°), frame 352 (153.38°), frame 354 (153.85°), frame 358 (158.44°), frame 391 (157.3°) ...
+
+------------------------------------------------------------------------
+
+Exercise  : Planks
+Video     : WhatsApp Video 2026-04-05 at 23.57.05.mp4
+Verdict   : ❌  BAD FORM
+Frames    : 128 motion frames analysed
+
+  ── Issues ──────────────────────────────────
+
+  [Elbow_Angle]
+    Why       : Elbows not at 90° — incorrect forearm plank position
+    Range     : 80° – 100°
+    Average   : 81.3°
+    Bad frames: 43 / 128 (33.6%)
+    When      : frame 147 (104.84°), frame 150 (108.71°), frame 151 (111.14°), frame 153 (114.31°), frame 164 (110.39°), frame 165 (108.32°), frame 166 (105.53°), frame 167 (102.22°) ...
+
+  [Shoulder_Angle]
+    Why       : Shoulders not stacked over elbows — misaligned upper body
+    Range     : 80° – 100°
+    Average   : 90.0°
+    Bad frames: 83 / 128 (64.8%)
+    When      : frame 97 (100.09°), frame 98 (102.58°), frame 99 (104.97°), frame 100 (108.29°), frame 101 (111.38°), frame 102 (114.27°), frame 103 (116.83°), frame 104 (120.09°) ...
+
+  [Hip_Angle]
+    Why       : Hips sagging down or piking up — body not in a straight line
+    Range     : 160° – 180°
+    Average   : 138.0°
+    Bad frames: 80 / 128 (62.5%)
+    When      : frame 1 (131.9°), frame 2 (143.58°), frame 3 (148.84°), frame 4 (149.24°), frame 5 (148.88°), frame 9 (143.14°), frame 17 (146.33°), frame 23 (146.11°) ...
+
+  [Knee_Angle]
+    Why       : Knees bent — legs should be fully extended in a plank
+    Range     : 160° – 180°
+    Average   : 156.3°
+    Bad frames: 74 / 128 (57.8%)
+    When      : frame 1 (152.46°), frame 2 (157.7°), frame 9 (159.43°), frame 23 (158.75°), frame 24 (157.63°), frame 30 (158.62°), frame 31 (156.94°), frame 33 (152.07°) ...
+
+------------------------------------------------------------------------
+
+Exercise  : Pushups
+Video     : IMG_5371.MOV
+Verdict   : ✅  GOOD FORM
+Frames    : 1362 motion frames analysed
+
+  ── Issues ──────────────────────────────────
+
+  [Elbow_Angle]
+    Why       : Elbow not reaching 90° at bottom or not fully extending at top
+    Range     : 60° – 170°
+    Average   : 134.0°
+    Bad frames: 115 / 1362 (8.4%)
+    When      : frame 1 (50.66°), frame 2 (44.98°), frame 3 (53.33°), frame 4 (54.25°), frame 5 (52.52°), frame 6 (52.59°), frame 7 (54.8°), frame 8 (52.86°) ...
+
+  [Shoulder_Angle]
+    Why       : Shoulders flaring too wide or collapsing inward
+    Range     : 30° – 90°
+    Average   : 40.1°
+    Bad frames: 434 / 1362 (31.9%)
+    When      : frame 1 (29.24°), frame 9 (25.83°), frame 10 (27.35°), frame 12 (27.11°), frame 13 (24.53°), frame 14 (21.5°), frame 15 (18.77°), frame 16 (19.41°) ...
+
+  [Hip_Angle]
+    Why       : Hips sagging or piking — body not in a straight plank line
+    Range     : 160° – 180°
+    Average   : 158.6°
+    Bad frames: 594 / 1362 (43.6%)
+    When      : frame 1 (153.99°), frame 2 (155.44°), frame 14 (157.34°), frame 15 (159.32°), frame 16 (159.52°), frame 17 (157.83°), frame 19 (158.51°), frame 32 (156.52°) ...
+
+  [Knee_Angle]
+    Why       : Knees bent — not maintaining full plank position
+    Range     : 160° – 180°
+    Average   : 162.1°
+    Bad frames: 213 / 1362 (15.6%)
+    When      : frame 1 (140.27°), frame 2 (142.17°), frame 3 (150.34°), frame 4 (150.16°), frame 5 (145.09°), frame 6 (148.18°), frame 7 (150.79°), frame 8 (149.63°) ...
+
+------------------------------------------------------------------------

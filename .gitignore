@@ -1,0 +1,12 @@
+.DS_Store
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pkl
+
+# Raw recordings (use Drive/USB; GitHub file limit 100MB)
+Data/
+*.mp4
+*.mov
+*.MOV
