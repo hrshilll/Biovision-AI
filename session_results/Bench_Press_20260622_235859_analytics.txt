@@ -1,0 +1,17 @@
+========================================================================
+  BIOVISION AI — SESSION ANALYTICS REPORT
+========================================================================
+Exercise     : Bench_Press
+Frames       : 48
+Reps         : 0
+
+Form Score: 97/100
+ROM: 100 | Stability: 100 | Symmetry: 100 | Tempo: 100 | Posture: 67
+
+Stability    : 100.0
+Symmetry     : 100.0
+Smoothness   : 100.0
+Tempo        : 100.0
+
+Range of Motion:
+========================================================================

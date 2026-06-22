@@ -1,0 +1,31 @@
+========================================================================
+  BIOVISION AI — SESSION ANALYTICS REPORT
+========================================================================
+Exercise     : Bicep_curls
+Frames       : 12
+Reps         : 0
+
+Form Score: 70/100
+ROM: 100 | Stability: 0 | Symmetry: 60 | Tempo: 100 | Posture: 83
+
+Stability    : 0.0
+Symmetry     : 59.8
+Smoothness   : 0.0
+Tempo        : 100.0
+
+Range of Motion:
+  Elbow_Angle: 56.02°
+  Knee_Angle: 120.04°
+  Hip_Angle: 142.42°
+  Shoulder_Angle: 149.09°
+
+Error Frequency:
+  partial_range_of_motion: 12
+  leaning_back: 11
+  torso_leaning: 11
+  knees_bending: 8
+  upper_arm_swinging: 6
+  shoulder_swing_detected: 6
+  elbow_drifting_forward: 5
+  incomplete_elbow_range_of_motion: 2
+========================================================================

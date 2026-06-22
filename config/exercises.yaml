@@ -1,0 +1,623 @@
+# BioVision AI — exercise configuration
+# Each exercise defines primary joints, angle thresholds, rep logic, form rules, and scoring weights.
+
+exercises:
+  Bicep_curls:
+    display_name: "Bicep Curl"
+    category: upper_body
+    isometric: false
+    primary_joints: [elbow_flexion, shoulder_flexion, hip_flexion, knee_flexion]
+    legacy_angle_map:
+      Elbow_Angle: elbow_flexion
+      Shoulder_Angle: shoulder_flexion
+      Hip_Angle: hip_flexion
+      Knee_Angle: knee_flexion
+    angle_thresholds:
+      elbow_flexion: {lo: 20, hi: 160, message: "Incomplete elbow range of motion"}
+      shoulder_flexion: {lo: 0, hi: 50, message: "Upper arm swinging — using momentum"}
+      hip_flexion: {lo: 155, hi: 180, message: "Leaning back — using body swing"}
+      knee_flexion: {lo: 155, hi: 180, message: "Knees bending — unstable base"}
+    rep_counting:
+      angle_key: elbow_flexion
+      down_threshold: 135
+      up_threshold: 125
+      count_on: up
+    scoring_weights:
+      rom: 0.35
+      stability: 0.20
+      symmetry: 0.20
+      tempo: 0.15
+      posture: 0.10
+    rule_module: curl_rules
+
+  Pushups:
+    display_name: "Pushup"
+    category: upper_body
+    isometric: false
+    primary_joints: [elbow_flexion, shoulder_flexion, hip_flexion, knee_flexion, trunk_inclination]
+    legacy_angle_map:
+      Elbow_Angle: elbow_flexion
+      Shoulder_Angle: shoulder_flexion
+      Hip_Angle: hip_flexion
+      Knee_Angle: knee_flexion
+    angle_thresholds:
+      elbow_flexion: {lo: 55, hi: 175, message: "Elbow not reaching 90 or not extending"}
+      shoulder_flexion: {lo: 25, hi: 95, message: "Shoulders flaring or collapsing"}
+      hip_flexion: {lo: 155, hi: 180, message: "Hips sagging or piking"}
+      knee_flexion: {lo: 155, hi: 180, message: "Knees bent — not in full plank"}
+    rep_counting:
+      angle_key: elbow_flexion
+      down_threshold: 155
+      up_threshold: 100
+      count_on: down
+    scoring_weights:
+      rom: 0.30
+      stability: 0.25
+      symmetry: 0.20
+      tempo: 0.15
+      posture: 0.10
+    rule_module: pushup_rules
+
+  Planks:
+    display_name: "Plank"
+    category: core
+    isometric: true
+    primary_joints: [elbow_flexion, shoulder_flexion, hip_flexion, knee_flexion, spine_alignment]
+    legacy_angle_map:
+      Elbow_Angle: elbow_flexion
+      Shoulder_Angle: shoulder_flexion
+      Hip_Angle: hip_flexion
+      Knee_Angle: knee_flexion
+    angle_thresholds:
+      elbow_flexion: {lo: 75, hi: 105, message: "Elbows not at 90 forearm position"}
+      shoulder_flexion: {lo: 75, hi: 105, message: "Shoulders not over elbows"}
+      hip_flexion: {lo: 155, hi: 180, message: "Hips sagging or piking"}
+      knee_flexion: {lo: 155, hi: 180, message: "Knees bent — legs must be straight"}
+    rep_counting: null
+    scoring_weights:
+      rom: 0.10
+      stability: 0.40
+      symmetry: 0.20
+      tempo: 0.10
+      posture: 0.20
+    rule_module: null
+
+  Squats:
+    display_name: "Squat"
+    category: lower_body
+    isometric: false
+    primary_joints: [knee_flexion, hip_flexion, trunk_inclination, spine_alignment]
+    legacy_angle_map:
+      Elbow_Angle: elbow_flexion
+      Shoulder_Angle: shoulder_flexion
+      Hip_Angle: hip_flexion
+      Knee_Angle: knee_flexion
+    angle_thresholds:
+      elbow_flexion: {lo: 55, hi: 180, message: "Arms not in stable position"}
+      shoulder_flexion: {lo: 55, hi: 180, message: "Excessive forward lean"}
+      hip_flexion: {lo: 45, hi: 125, message: "Not reaching depth or spine collapse"}
+      knee_flexion: {lo: 55, hi: 125, message: "Knees not bending or caving in"}
+    rep_counting:
+      angle_key: knee_flexion
+      down_threshold: 155
+      up_threshold: 100
+      count_on: down
+    scoring_weights:
+      rom: 0.30
+      stability: 0.25
+      symmetry: 0.20
+      tempo: 0.15
+      posture: 0.10
+    rule_module: squat_rules
+
+  Deadlifts:
+    display_name: "Deadlift"
+    category: lower_body
+    isometric: false
+    primary_joints: [hip_flexion, knee_flexion, trunk_inclination, spine_alignment]
+    legacy_angle_map:
+      Elbow_Angle: elbow_flexion
+      Shoulder_Angle: shoulder_flexion
+      Hip_Angle: hip_flexion
+      Knee_Angle: knee_flexion
+    angle_thresholds:
+      elbow_flexion: {lo: 155, hi: 180, message: "Arms bent — should be straight"}
+      shoulder_flexion: {lo: 55, hi: 180, message: "Shoulders rounding — injury risk"}
+      hip_flexion: {lo: 55, hi: 165, message: "Hips not hinging properly"}
+      knee_flexion: {lo: 95, hi: 175, message: "Knee angle incorrect at start/finish"}
+    rep_counting:
+      angle_key: hip_flexion
+      down_threshold: 155
+      up_threshold: 90
+      count_on: up
+    scoring_weights:
+      rom: 0.30
+      stability: 0.25
+      symmetry: 0.20
+      tempo: 0.15
+      posture: 0.10
+    rule_module: deadlift_rules
+
+  Lateral_Raise:
+    display_name: "Lateral Raise"
+    category: upper_body
+    isometric: false
+    primary_joints: [shoulder_abduction, elbow_flexion]
+    legacy_angle_map:
+      Elbow_Angle: elbow_flexion
+      Shoulder_Angle: shoulder_abduction
+      Hip_Angle: hip_flexion
+      Knee_Angle: knee_flexion
+    angle_thresholds:
+      shoulder_abduction: {lo: 70, hi: 100, message: "Raise arms to shoulder height"}
+      elbow_flexion: {lo: 160, hi: 180, message: "Keep elbows slightly bent, not locked"}
+      hip_flexion: {lo: 160, hi: 180, message: "Maintain upright torso"}
+    rep_counting:
+      angle_key: shoulder_abduction
+      down_threshold: 25
+      up_threshold: 70
+      count_on: up
+    scoring_weights:
+      rom: 0.35
+      stability: 0.20
+      symmetry: 0.25
+      tempo: 0.10
+      posture: 0.10
+    rule_module: null
+
+  Front_Raise:
+    display_name: "Front Raise"
+    category: upper_body
+    isometric: false
+    primary_joints: [shoulder_flexion, elbow_flexion]
+    legacy_angle_map:
+      Elbow_Angle: elbow_flexion
+      Shoulder_Angle: shoulder_flexion
+      Hip_Angle: hip_flexion
+      Knee_Angle: knee_flexion
+    angle_thresholds:
+      shoulder_flexion: {lo: 70, hi: 100, message: "Raise to shoulder height without swinging"}
+      elbow_flexion: {lo: 160, hi: 180, message: "Maintain slight elbow bend"}
+    rep_counting:
+      angle_key: shoulder_flexion
+      down_threshold: 20
+      up_threshold: 70
+      count_on: up
+    scoring_weights:
+      rom: 0.35
+      stability: 0.20
+      symmetry: 0.25
+      tempo: 0.10
+      posture: 0.10
+    rule_module: null
+
+  Shoulder_Press:
+    display_name: "Shoulder Press"
+    category: upper_body
+    isometric: false
+    primary_joints: [shoulder_flexion, elbow_flexion, trunk_inclination]
+    legacy_angle_map:
+      Elbow_Angle: elbow_flexion
+      Shoulder_Angle: shoulder_flexion
+      Hip_Angle: hip_flexion
+      Knee_Angle: knee_flexion
+    angle_thresholds:
+      elbow_flexion: {lo: 70, hi: 175, message: "Full press range required"}
+      shoulder_flexion: {lo: 70, hi: 175, message: "Press overhead without excessive arch"}
+      trunk_inclination: {lo: 0, hi: 15, message: "Avoid excessive back arch"}
+    rep_counting:
+      angle_key: elbow_flexion
+      down_threshold: 150
+      up_threshold: 100
+      count_on: up
+    scoring_weights:
+      rom: 0.30
+      stability: 0.25
+      symmetry: 0.20
+      tempo: 0.15
+      posture: 0.10
+    rule_module: null
+
+  Bench_Press:
+    display_name: "Bench Press"
+    category: upper_body
+    isometric: false
+    primary_joints: [elbow_flexion, shoulder_flexion]
+    legacy_angle_map:
+      Elbow_Angle: elbow_flexion
+      Shoulder_Angle: shoulder_flexion
+      Hip_Angle: hip_flexion
+      Knee_Angle: knee_flexion
+    angle_thresholds:
+      elbow_flexion: {lo: 70, hi: 175, message: "Control bar path and full ROM"}
+      shoulder_flexion: {lo: 45, hi: 100, message: "Avoid excessive shoulder flare"}
+    rep_counting:
+      angle_key: elbow_flexion
+      down_threshold: 150
+      up_threshold: 95
+      count_on: up
+    scoring_weights:
+      rom: 0.30
+      stability: 0.25
+      symmetry: 0.20
+      tempo: 0.15
+      posture: 0.10
+    rule_module: null
+
+  Tricep_Extension:
+    display_name: "Tricep Extension"
+    category: upper_body
+    isometric: false
+    primary_joints: [elbow_flexion, shoulder_flexion]
+    legacy_angle_map:
+      Elbow_Angle: elbow_flexion
+      Shoulder_Angle: shoulder_flexion
+      Hip_Angle: hip_flexion
+      Knee_Angle: knee_flexion
+    angle_thresholds:
+      elbow_flexion: {lo: 40, hi: 170, message: "Full elbow extension and flexion required"}
+      shoulder_flexion: {lo: 0, hi: 30, message: "Keep upper arm stable"}
+    rep_counting:
+      angle_key: elbow_flexion
+      down_threshold: 150
+      up_threshold: 70
+      count_on: up
+    scoring_weights:
+      rom: 0.35
+      stability: 0.20
+      symmetry: 0.25
+      tempo: 0.10
+      posture: 0.10
+    rule_module: null
+
+  Pull_Up:
+    display_name: "Pull Up"
+    category: upper_body
+    isometric: false
+    primary_joints: [elbow_flexion, shoulder_flexion]
+    legacy_angle_map:
+      Elbow_Angle: elbow_flexion
+      Shoulder_Angle: shoulder_flexion
+      Hip_Angle: hip_flexion
+      Knee_Angle: knee_flexion
+    angle_thresholds:
+      elbow_flexion: {lo: 40, hi: 170, message: "Chin above bar at top, full hang at bottom"}
+      hip_flexion: {lo: 160, hi: 180, message: "Avoid kipping — maintain body control"}
+    rep_counting:
+      angle_key: elbow_flexion
+      down_threshold: 155
+      up_threshold: 85
+      count_on: up
+    scoring_weights:
+      rom: 0.35
+      stability: 0.20
+      symmetry: 0.25
+      tempo: 0.10
+      posture: 0.10
+    rule_module: null
+
+  Lat_Pulldown:
+    display_name: "Lat Pulldown"
+    category: upper_body
+    isometric: false
+    primary_joints: [elbow_flexion, shoulder_flexion]
+    legacy_angle_map:
+      Elbow_Angle: elbow_flexion
+      Shoulder_Angle: shoulder_flexion
+      Hip_Angle: hip_flexion
+      Knee_Angle: knee_flexion
+    angle_thresholds:
+      elbow_flexion: {lo: 50, hi: 160, message: "Pull bar to upper chest"}
+      shoulder_flexion: {lo: 30, hi: 100, message: "Depress shoulders, avoid shrugging"}
+    rep_counting:
+      angle_key: elbow_flexion
+      down_threshold: 160
+      up_threshold: 80
+      count_on: up
+    scoring_weights:
+      rom: 0.30
+      stability: 0.25
+      symmetry: 0.20
+      tempo: 0.15
+      posture: 0.10
+    rule_module: null
+
+  Bent_Over_Row:
+    display_name: "Bent Over Row"
+    category: upper_body
+    isometric: false
+    primary_joints: [elbow_flexion, trunk_inclination, spine_alignment]
+    legacy_angle_map:
+      Elbow_Angle: elbow_flexion
+      Shoulder_Angle: shoulder_flexion
+      Hip_Angle: hip_flexion
+      Knee_Angle: knee_flexion
+    angle_thresholds:
+      elbow_flexion: {lo: 50, hi: 160, message: "Pull to torso with controlled ROM"}
+      trunk_inclination: {lo: 25, hi: 55, message: "Maintain hip hinge angle"}
+      spine_alignment: {lo: 160, hi: 180, message: "Keep neutral spine"}
+    rep_counting:
+      angle_key: elbow_flexion
+      down_threshold: 160
+      up_threshold: 70
+      count_on: up
+    scoring_weights:
+      rom: 0.30
+      stability: 0.25
+      symmetry: 0.20
+      tempo: 0.15
+      posture: 0.10
+    rule_module: null
+
+  Lunges:
+    display_name: "Lunge"
+    category: lower_body
+    isometric: false
+    primary_joints: [knee_flexion, hip_flexion, trunk_inclination]
+    legacy_angle_map:
+      Elbow_Angle: elbow_flexion
+      Shoulder_Angle: shoulder_flexion
+      Hip_Angle: hip_flexion
+      Knee_Angle: knee_flexion
+    angle_thresholds:
+      knee_flexion: {lo: 70, hi: 110, message: "Front knee should bend to ~90 degrees"}
+      hip_flexion: {lo: 70, hi: 120, message: "Hip drop for adequate depth"}
+      trunk_inclination: {lo: 0, hi: 20, message: "Keep torso upright"}
+    rep_counting:
+      angle_key: knee_flexion
+      down_threshold: 150
+      up_threshold: 110
+      count_on: down
+    scoring_weights:
+      rom: 0.30
+      stability: 0.25
+      symmetry: 0.20
+      tempo: 0.15
+      posture: 0.10
+    rule_module: lunge_rules
+
+  Bulgarian_Split_Squat:
+    display_name: "Bulgarian Split Squat"
+    category: lower_body
+    isometric: false
+    primary_joints: [knee_flexion, hip_flexion, trunk_inclination]
+    legacy_angle_map:
+      Elbow_Angle: elbow_flexion
+      Shoulder_Angle: shoulder_flexion
+      Hip_Angle: hip_flexion
+      Knee_Angle: knee_flexion
+    angle_thresholds:
+      knee_flexion: {lo: 70, hi: 110, message: "Front knee depth target ~90 degrees"}
+      hip_flexion: {lo: 70, hi: 120, message: "Drop hip for depth"}
+      trunk_inclination: {lo: 0, hi: 25, message: "Minimize forward lean"}
+    rep_counting:
+      angle_key: knee_flexion
+      down_threshold: 150
+      up_threshold: 110
+      count_on: down
+    scoring_weights:
+      rom: 0.30
+      stability: 0.25
+      symmetry: 0.20
+      tempo: 0.15
+      posture: 0.10
+    rule_module: lunge_rules
+
+  Leg_Press:
+    display_name: "Leg Press"
+    category: lower_body
+    isometric: false
+    primary_joints: [knee_flexion, hip_flexion]
+    legacy_angle_map:
+      Elbow_Angle: elbow_flexion
+      Shoulder_Angle: shoulder_flexion
+      Hip_Angle: hip_flexion
+      Knee_Angle: knee_flexion
+    angle_thresholds:
+      knee_flexion: {lo: 70, hi: 120, message: "Control depth without lumbar rounding"}
+      hip_flexion: {lo: 70, hi: 130, message: "Hip flexion within safe range"}
+    rep_counting:
+      angle_key: knee_flexion
+      down_threshold: 150
+      up_threshold: 110
+      count_on: down
+    scoring_weights:
+      rom: 0.30
+      stability: 0.25
+      symmetry: 0.20
+      tempo: 0.15
+      posture: 0.10
+    rule_module: null
+
+  Calf_Raise:
+    display_name: "Calf Raise"
+    category: lower_body
+    isometric: false
+    primary_joints: [knee_flexion]
+    legacy_angle_map:
+      Elbow_Angle: elbow_flexion
+      Shoulder_Angle: shoulder_flexion
+      Hip_Angle: hip_flexion
+      Knee_Angle: knee_flexion
+    angle_thresholds:
+      knee_flexion: {lo: 165, hi: 180, message: "Keep knees extended during calf raise"}
+    rep_counting:
+      angle_key: knee_flexion
+      down_threshold: 168
+      up_threshold: 172
+      count_on: up
+    scoring_weights:
+      rom: 0.35
+      stability: 0.25
+      symmetry: 0.20
+      tempo: 0.10
+      posture: 0.10
+    rule_module: null
+
+  Romanian_Deadlift:
+    display_name: "Romanian Deadlift"
+    category: lower_body
+    isometric: false
+    primary_joints: [hip_flexion, knee_flexion, trunk_inclination, spine_alignment]
+    legacy_angle_map:
+      Elbow_Angle: elbow_flexion
+      Shoulder_Angle: shoulder_flexion
+      Hip_Angle: hip_flexion
+      Knee_Angle: knee_flexion
+    angle_thresholds:
+      hip_flexion: {lo: 60, hi: 140, message: "Hip hinge to hamstring stretch"}
+      knee_flexion: {lo: 155, hi: 180, message: "Keep knees slightly bent, not locked"}
+      spine_alignment: {lo: 160, hi: 180, message: "Maintain neutral spine"}
+    rep_counting:
+      angle_key: hip_flexion
+      down_threshold: 120
+      up_threshold: 160
+      count_on: up
+    scoring_weights:
+      rom: 0.30
+      stability: 0.25
+      symmetry: 0.20
+      tempo: 0.15
+      posture: 0.10
+    rule_module: deadlift_rules
+
+  Crunch:
+    display_name: "Crunch"
+    category: core
+    isometric: false
+    primary_joints: [trunk_inclination, hip_flexion]
+    legacy_angle_map:
+      Elbow_Angle: elbow_flexion
+      Shoulder_Angle: shoulder_flexion
+      Hip_Angle: hip_flexion
+      Knee_Angle: knee_flexion
+    angle_thresholds:
+      trunk_inclination: {lo: 25, hi: 60, message: "Curl upper body without pulling neck"}
+      hip_flexion: {lo: 80, hi: 120, message: "Maintain stable hip angle"}
+    rep_counting:
+      angle_key: trunk_inclination
+      down_threshold: 15
+      up_threshold: 35
+      count_on: up
+    scoring_weights:
+      rom: 0.30
+      stability: 0.25
+      symmetry: 0.15
+      tempo: 0.15
+      posture: 0.15
+    rule_module: null
+
+  Sit_Up:
+    display_name: "Sit Up"
+    category: core
+    isometric: false
+    primary_joints: [trunk_inclination, hip_flexion]
+    legacy_angle_map:
+      Elbow_Angle: elbow_flexion
+      Shoulder_Angle: shoulder_flexion
+      Hip_Angle: hip_flexion
+      Knee_Angle: knee_flexion
+    angle_thresholds:
+      trunk_inclination: {lo: 60, hi: 90, message: "Full sit-up range without jerking"}
+      hip_flexion: {lo: 70, hi: 120, message: "Control hip flexion throughout"}
+    rep_counting:
+      angle_key: trunk_inclination
+      down_threshold: 20
+      up_threshold: 55
+      count_on: up
+    scoring_weights:
+      rom: 0.30
+      stability: 0.25
+      symmetry: 0.15
+      tempo: 0.15
+      posture: 0.15
+    rule_module: null
+
+  Mountain_Climber:
+    display_name: "Mountain Climber"
+    category: core
+    isometric: false
+    primary_joints: [knee_flexion, hip_flexion, trunk_inclination]
+    legacy_angle_map:
+      Elbow_Angle: elbow_flexion
+      Shoulder_Angle: shoulder_flexion
+      Hip_Angle: hip_flexion
+      Knee_Angle: knee_flexion
+    angle_thresholds:
+      knee_flexion: {lo: 60, hi: 110, message: "Drive knee toward chest"}
+      trunk_inclination: {lo: 0, hi: 20, message: "Maintain plank position"}
+    rep_counting:
+      angle_key: knee_flexion
+      down_threshold: 150
+      up_threshold: 100
+      count_on: down
+    scoring_weights:
+      rom: 0.25
+      stability: 0.30
+      symmetry: 0.20
+      tempo: 0.15
+      posture: 0.10
+    rule_module: null
+
+  Russian_Twist:
+    display_name: "Russian Twist"
+    category: core
+    isometric: false
+    primary_joints: [trunk_inclination, spine_alignment]
+    legacy_angle_map:
+      Elbow_Angle: elbow_flexion
+      Shoulder_Angle: shoulder_flexion
+      Hip_Angle: hip_flexion
+      Knee_Angle: knee_flexion
+    angle_thresholds:
+      trunk_inclination: {lo: 30, hi: 55, message: "Maintain reclined torso angle"}
+      spine_alignment: {lo: 160, hi: 180, message: "Rotate from core, not lower back"}
+    rep_counting:
+      angle_key: trunk_inclination
+      down_threshold: 20
+      up_threshold: 40
+      count_on: up
+    scoring_weights:
+      rom: 0.25
+      stability: 0.30
+      symmetry: 0.20
+      tempo: 0.15
+      posture: 0.10
+    rule_module: null
+
+  Side_Plank:
+    display_name: "Side Plank"
+    category: core
+    isometric: true
+    primary_joints: [hip_flexion, spine_alignment, trunk_inclination]
+    legacy_angle_map:
+      Elbow_Angle: elbow_flexion
+      Shoulder_Angle: shoulder_flexion
+      Hip_Angle: hip_flexion
+      Knee_Angle: knee_flexion
+    angle_thresholds:
+      hip_flexion: {lo: 160, hi: 180, message: "Keep body in straight line"}
+      spine_alignment: {lo: 160, hi: 180, message: "Avoid hip drop or pike"}
+    rep_counting: null
+    scoring_weights:
+      rom: 0.10
+      stability: 0.40
+      symmetry: 0.25
+      tempo: 0.10
+      posture: 0.15
+    rule_module: null
+
+# Legacy folder name aliases for dataset extraction
+folder_aliases:
+  bicep_curl: Bicep_curls
+  bicep_curls: Bicep_curls
+  squat: Squats
+  squats: Squats
+  pushup: Pushups
+  pushups: Pushups
+  plank: Planks
+  planks: Planks
+  deadlift: Deadlifts
+  deadlifts: Deadlifts
+  lunge: Lunges
+  lunges: Lunges

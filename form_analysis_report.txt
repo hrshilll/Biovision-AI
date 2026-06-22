@@ -1,0 +1,380 @@
+========================================================================
+  BIOVISION AI — FORM ANALYSIS REPORT
+========================================================================
+
+Exercise  : Bicep_curls
+Video     : Camo Recording 2026-03-21 19-42-19.mov.mov
+Verdict   : GOOD FORM
+Frames    : 8
+  → All joint angles within acceptable range.
+------------------------------------------------------------------------
+
+Exercise  : Bicep_curls
+Video     : Camo Recording 2026-03-21 19-48-11.mov.mov
+Verdict   : BAD FORM
+Frames    : 74
+
+  Issues:
+  [Elbow_Angle] Incomplete elbow range of motion (20.3% frames)
+  [Knee_Angle] Knees bending — unstable base (6.8% frames)
+  [Shoulder_Angle] Shoulder swing detected — isolate the biceps. (1.4% frames)
+------------------------------------------------------------------------
+
+Exercise  : Bicep_curls
+Video     : Camo Recording 2026-03-21 19-50-24.mov.mov
+Verdict   : BAD FORM
+Frames    : 30
+
+  Issues:
+  [Elbow_Angle] Incomplete elbow range of motion (86.7% frames)
+  [Knee_Angle] Knees bending — unstable base (90.0% frames)
+  [Hip_Angle] Leaning back — using body swing (100.0% frames)
+------------------------------------------------------------------------
+
+Exercise  : Bicep_curls
+Video     : IMG_5374.MOV
+Verdict   : GOOD FORM
+Frames    : 154
+  → All joint angles within acceptable range.
+------------------------------------------------------------------------
+
+Exercise  : Bicep_curls
+Video     : WhatsApp Video 2026-04-05 at 23.56.48.mp4
+Verdict   : GOOD FORM
+Frames    : 446
+  → All joint angles within acceptable range.
+------------------------------------------------------------------------
+
+Exercise  : Bicep_curls
+Video     : WhatsApp Video 2026-04-05 at 23.56.52.mp4
+Verdict   : GOOD FORM
+Frames    : 259
+
+  Issues:
+  [Shoulder_Angle] Upper arm swinging — using momentum (25.5% frames)
+  [Elbow_Angle] Incomplete elbow range of motion (7.3% frames)
+------------------------------------------------------------------------
+
+Exercise  : Bicep_curls
+Video     : WhatsApp Video 2026-04-05 at 23.56.57.mp4
+Verdict   : BAD FORM
+Frames    : 1871
+
+  Issues:
+  [Shoulder_Angle] Shoulder swing detected — isolate the biceps. (42.6% frames)
+  [Hip_Angle] Torso leaning — reduce momentum. (84.1% frames)
+  [Knee_Angle] Knees bending — unstable base (13.2% frames)
+  [Elbow_Angle] Incomplete elbow range of motion (1.9% frames)
+------------------------------------------------------------------------
+
+Exercise  : Bicep_curls
+Video     : WhatsApp Video 2026-04-05 at 23.56.58 (2).mp4
+Verdict   : GOOD FORM
+Frames    : 1381
+
+  Issues:
+  [Knee_Angle] Knees bending — unstable base (0.3% frames)
+------------------------------------------------------------------------
+
+Exercise  : Bicep_curls
+Video     : WhatsApp Video 2026-04-05 at 23.56.59.mp4
+Verdict   : GOOD FORM
+Frames    : 1378
+
+  Issues:
+  [Elbow_Angle] Incomplete elbow range of motion (0.1% frames)
+  [Shoulder_Angle] Upper arm swinging — using momentum (0.3% frames)
+  [Hip_Angle] Torso leaning — reduce momentum. (1.1% frames)
+  [Knee_Angle] Knees bending — unstable base (0.7% frames)
+------------------------------------------------------------------------
+
+Exercise  : Bicep_curls
+Video     : WhatsApp Video 2026-04-05 at 23.57.00.mp4
+Verdict   : BAD FORM
+Frames    : 1416
+
+  Issues:
+  [Knee_Angle] Knees bending — unstable base (13.1% frames)
+  [Hip_Angle] Torso leaning — reduce momentum. (18.0% frames)
+  [Elbow_Angle] Incomplete elbow range of motion (1.5% frames)
+  [Shoulder_Angle] Upper arm swinging — using momentum (23.0% frames)
+------------------------------------------------------------------------
+
+Exercise  : Bicep_curls
+Video     : WhatsApp Video 2026-04-06 at 00.03.11.mp4
+Verdict   : GOOD FORM
+Frames    : 1215
+
+  Issues:
+  [Elbow_Angle] Incomplete elbow range of motion (0.2% frames)
+------------------------------------------------------------------------
+
+Exercise  : Deadlifts
+Video     : WhatsApp Video 2026-04-05 at 23.57.00 (1).mp4
+Verdict   : BAD FORM
+Frames    : 1629
+
+  Issues:
+  [Shoulder_Angle] Shoulders rounding — injury risk (75.8% frames)
+  [Spine_Alignment] Rounded lower back detected. (100.0% frames)
+  [Trunk_Inclination] Hyperextension at lockout — avoid over-arching. (24.2% frames)
+  [Elbow_Angle] Arms bent — should be straight (61.1% frames)
+  [Knee_Angle] Knee angle incorrect at start/finish (36.3% frames)
+  [Hip_Angle] Hips not hinging properly (51.6% frames)
+------------------------------------------------------------------------
+
+Exercise  : Deadlifts
+Video     : WhatsApp Video 2026-04-05 at 23.57.01 (1).mp4
+Verdict   : BAD FORM
+Frames    : 1204
+
+  Issues:
+  [Hip_Angle] Hips not hinging properly (51.2% frames)
+  [Spine_Alignment] Rounded lower back detected. (100.0% frames)
+  [Trunk_Inclination] Hyperextension at lockout — avoid over-arching. (15.7% frames)
+  [Elbow_Angle] Arms bent — should be straight (62.6% frames)
+  [Shoulder_Angle] Shoulders rounding — injury risk (55.1% frames)
+  [Knee_Angle] Knee angle incorrect at start/finish (6.8% frames)
+------------------------------------------------------------------------
+
+Exercise  : Deadlifts
+Video     : WhatsApp Video 2026-04-05 at 23.58.24.mp4
+Verdict   : BAD FORM
+Frames    : 2228
+
+  Issues:
+  [Elbow_Angle] Arms bent — should be straight (69.4% frames)
+  [Hip_Angle] Hips not hinging properly (33.7% frames)
+  [Spine_Alignment] Rounded lower back detected. (100.0% frames)
+  [Trunk_Inclination] Hyperextension at lockout — avoid over-arching. (3.7% frames)
+  [Knee_Angle] Knee angle incorrect at start/finish (1.7% frames)
+  [Shoulder_Angle] Shoulders rounding — injury risk (86.1% frames)
+------------------------------------------------------------------------
+
+Exercise  : Deadlifts
+Video     : WhatsApp Video 2026-04-06 at 00.00.56.mp4
+Verdict   : GOOD FORM
+Frames    : 1866
+
+  Issues:
+  [Elbow_Angle] Arms bent — should be straight (46.4% frames)
+  [Shoulder_Angle] Shoulders rounding — injury risk (86.4% frames)
+  [Hip_Angle] Hips not hinging properly (20.7% frames)
+  [Knee_Angle] Knee angle incorrect at start/finish (3.4% frames)
+  [Spine_Alignment] Rounded lower back detected. (100.0% frames)
+  [Trunk_Inclination] Hyperextension at lockout — avoid over-arching. (0.1% frames)
+------------------------------------------------------------------------
+
+Exercise  : Deadlifts
+Video     : WhatsApp Video 2026-04-06 at 00.03.01.mp4
+Verdict   : BAD FORM
+Frames    : 2362
+
+  Issues:
+  [Elbow_Angle] Arms bent — should be straight (75.5% frames)
+  [Shoulder_Angle] Shoulders rounding — injury risk (76.7% frames)
+  [Hip_Angle] Hips not hinging properly (47.3% frames)
+  [Spine_Alignment] Rounded lower back detected. (100.0% frames)
+  [Trunk_Inclination] Hyperextension at lockout — avoid over-arching. (19.1% frames)
+  [Knee_Angle] Knee angle incorrect at start/finish (29.5% frames)
+------------------------------------------------------------------------
+
+Exercise  : Deadlifts
+Video     : WhatsApp Video 2026-04-06 at 00.03.02.mp4
+Verdict   : BAD FORM
+Frames    : 1843
+
+  Issues:
+  [Elbow_Angle] Arms bent — should be straight (64.5% frames)
+  [Shoulder_Angle] Shoulders rounding — injury risk (75.0% frames)
+  [Spine_Alignment] Rounded lower back detected. (100.0% frames)
+  [Trunk_Inclination] Hyperextension at lockout — avoid over-arching. (21.3% frames)
+  [Knee_Angle] Knee angle incorrect at start/finish (34.9% frames)
+  [Hip_Angle] Hips not hinging properly (46.9% frames)
+------------------------------------------------------------------------
+
+Exercise  : Deadlifts
+Video     : WhatsApp Video 2026-04-06 at 00.03.03.mp4
+Verdict   : GOOD FORM
+Frames    : 2341
+
+  Issues:
+  [Elbow_Angle] Arms bent — should be straight (77.0% frames)
+  [Shoulder_Angle] Shoulders rounding — injury risk (75.9% frames)
+  [Hip_Angle] Hips not hinging properly (44.9% frames)
+  [Spine_Alignment] Rounded lower back detected. (100.0% frames)
+  [Trunk_Inclination] Hyperextension at lockout — avoid over-arching. (9.8% frames)
+  [Knee_Angle] Knee angle incorrect at start/finish (25.6% frames)
+------------------------------------------------------------------------
+
+Exercise  : Deadlifts
+Video     : WhatsApp Video 2026-04-06 at 00.03.04.mp4
+Verdict   : GOOD FORM
+Frames    : 1535
+
+  Issues:
+  [Elbow_Angle] Arms bent — should be straight (27.2% frames)
+  [Shoulder_Angle] Shoulders rounding — injury risk (77.5% frames)
+  [Spine_Alignment] Rounded lower back detected. (100.0% frames)
+  [Trunk_Inclination] Hyperextension at lockout — avoid over-arching. (13.7% frames)
+  [Hip_Angle] Hips not hinging properly (25.0% frames)
+  [Knee_Angle] Knee angle incorrect at start/finish (2.0% frames)
+------------------------------------------------------------------------
+
+Exercise  : Deadlifts
+Video     : WhatsApp Video 2026-04-06 at 00.03.05.mp4
+Verdict   : GOOD FORM
+Frames    : 1584
+
+  Issues:
+  [Shoulder_Angle] Shoulders rounding — injury risk (62.7% frames)
+  [Spine_Alignment] Rounded lower back detected. (100.0% frames)
+  [Knee_Angle] Knee angle incorrect at start/finish (44.8% frames)
+  [Hip_Angle] Hips not hinging properly (38.1% frames)
+  [Elbow_Angle] Arms bent — should be straight (67.2% frames)
+  [Trunk_Inclination] Hyperextension at lockout — avoid over-arching. (1.8% frames)
+------------------------------------------------------------------------
+
+Exercise  : Deadlifts
+Video     : WhatsApp Video 2026-04-06 at 00.03.06.mp4
+Verdict   : GOOD FORM
+Frames    : 2109
+
+  Issues:
+  [Spine_Alignment] Rounded lower back detected. (100.0% frames)
+  [Trunk_Inclination] Hyperextension at lockout — avoid over-arching. (69.0% frames)
+  [Elbow_Angle] Arms bent — should be straight (86.8% frames)
+  [Shoulder_Angle] Shoulders rounding — injury risk (72.8% frames)
+  [Knee_Angle] Knee angle incorrect at start/finish (28.2% frames)
+  [Hip_Angle] Hips not hinging properly (24.9% frames)
+------------------------------------------------------------------------
+
+Exercise  : Deadlifts
+Video     : WhatsApp Video 2026-04-06 at 00.03.07.mp4
+Verdict   : GOOD FORM
+Frames    : 1598
+
+  Issues:
+  [Elbow_Angle] Arms bent — should be straight (11.5% frames)
+  [Shoulder_Angle] Shoulders rounding — injury risk (70.7% frames)
+  [Spine_Alignment] Rounded lower back detected. (100.0% frames)
+  [Trunk_Inclination] Hyperextension at lockout — avoid over-arching. (21.2% frames)
+  [Hip_Angle] Hips not hinging properly (31.0% frames)
+  [Knee_Angle] Knee angle incorrect at start/finish (0.7% frames)
+------------------------------------------------------------------------
+
+Exercise  : Planks
+Video     : WhatsApp Video 2026-04-05 at 23.56.56 (1).mp4
+Verdict   : GOOD FORM
+Frames    : 352
+
+  Issues:
+  [Elbow_Angle] Elbows not at 90 forearm position (17.0% frames)
+  [Shoulder_Angle] Shoulders not over elbows (60.8% frames)
+  [Knee_Angle] Knees bent — legs must be straight (60.2% frames)
+  [Hip_Angle] Hips sagging or piking (82.7% frames)
+------------------------------------------------------------------------
+
+Exercise  : Planks
+Video     : WhatsApp Video 2026-04-05 at 23.56.56 (2).mp4
+Verdict   : BAD FORM
+Frames    : 290
+
+  Issues:
+  [Hip_Angle] Hips sagging or piking (79.7% frames)
+  [Knee_Angle] Knees bent — legs must be straight (62.8% frames)
+  [Shoulder_Angle] Shoulders not over elbows (86.6% frames)
+  [Elbow_Angle] Elbows not at 90 forearm position (11.7% frames)
+------------------------------------------------------------------------
+
+Exercise  : Planks
+Video     : WhatsApp Video 2026-04-05 at 23.56.56.mp4
+Verdict   : BAD FORM
+Frames    : 330
+
+  Issues:
+  [Elbow_Angle] Elbows not at 90 forearm position (63.9% frames)
+  [Shoulder_Angle] Shoulders not over elbows (96.1% frames)
+  [Hip_Angle] Hips sagging or piking (98.2% frames)
+  [Knee_Angle] Knees bent — legs must be straight (22.4% frames)
+------------------------------------------------------------------------
+
+Exercise  : Planks
+Video     : WhatsApp Video 2026-04-05 at 23.57.03 (1).mp4
+Verdict   : GOOD FORM
+Frames    : 19
+
+  Issues:
+  [Hip_Angle] Hips sagging or piking (100.0% frames)
+  [Knee_Angle] Knees bent — legs must be straight (10.5% frames)
+------------------------------------------------------------------------
+
+Exercise  : Planks
+Video     : WhatsApp Video 2026-04-05 at 23.57.04 (1).mp4
+Verdict   : BAD FORM
+Frames    : 346
+
+  Issues:
+  [Elbow_Angle] Elbows not at 90 forearm position (24.9% frames)
+  [Shoulder_Angle] Shoulders not over elbows (39.6% frames)
+  [Hip_Angle] Hips sagging or piking (100.0% frames)
+  [Knee_Angle] Knees bent — legs must be straight (69.7% frames)
+------------------------------------------------------------------------
+
+Exercise  : Planks
+Video     : WhatsApp Video 2026-04-05 at 23.57.04.mp4
+Verdict   : GOOD FORM
+Frames    : 359
+
+  Issues:
+  [Hip_Angle] Hips sagging or piking (98.1% frames)
+  [Knee_Angle] Knees bent — legs must be straight (93.6% frames)
+  [Shoulder_Angle] Shoulders not over elbows (8.9% frames)
+  [Elbow_Angle] Elbows not at 90 forearm position (21.4% frames)
+------------------------------------------------------------------------
+
+Exercise  : Planks
+Video     : WhatsApp Video 2026-04-05 at 23.57.05 (1).mp4
+Verdict   : GOOD FORM
+Frames    : 177
+
+  Issues:
+  [Hip_Angle] Hips sagging or piking (100.0% frames)
+  [Knee_Angle] Knees bent — legs must be straight (86.4% frames)
+  [Shoulder_Angle] Shoulders not over elbows (58.2% frames)
+------------------------------------------------------------------------
+
+Exercise  : Planks
+Video     : WhatsApp Video 2026-04-05 at 23.57.05 (2).mp4
+Verdict   : BAD FORM
+Frames    : 105
+
+  Issues:
+  [Shoulder_Angle] Shoulders not over elbows (69.5% frames)
+  [Hip_Angle] Hips sagging or piking (100.0% frames)
+  [Knee_Angle] Knees bent — legs must be straight (11.4% frames)
+------------------------------------------------------------------------
+
+Exercise  : Planks
+Video     : WhatsApp Video 2026-04-05 at 23.57.05.mp4
+Verdict   : BAD FORM
+Frames    : 128
+
+  Issues:
+  [Hip_Angle] Hips sagging or piking (59.4% frames)
+  [Knee_Angle] Knees bent — legs must be straight (43.8% frames)
+  [Shoulder_Angle] Shoulders not over elbows (53.1% frames)
+  [Elbow_Angle] Elbows not at 90 forearm position (27.3% frames)
+------------------------------------------------------------------------
+
+Exercise  : Pushups
+Video     : IMG_5371.MOV
+Verdict   : GOOD FORM
+Frames    : 1362
+
+  Issues:
+  [Elbow_Angle] Elbow not reaching 90 or not extending (71.9% frames)
+  [Hip_Angle] Hips sagging or piking (122.0% frames)
+  [Knee_Angle] Knees bent — not in full plank (7.9% frames)
+  [Shoulder_Angle] Shoulders flaring or collapsing (25.5% frames)
+------------------------------------------------------------------------

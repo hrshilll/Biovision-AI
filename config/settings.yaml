@@ -1,0 +1,30 @@
+paths:
+  data_dir: "Data"
+  model_dir: "models"
+  session_dir: "session_results"
+  dataset_csv: "gym_dataset.csv"
+  dataset_excel: "gym_dataset.xlsx"
+
+pose:
+  min_visibility: 0.30
+  min_detection_confidence: 0.5
+  min_tracking_confidence: 0.5
+  model_complexity: 1
+  motion_threshold: 1.5
+
+inference:
+  smooth_window: 8
+  webcam_width: 1280
+  webcam_height: 720
+
+form_scoring:
+  weights:
+    rom: 0.30
+    stability: 0.25
+    symmetry: 0.20
+    tempo: 0.15
+    posture: 0.10
+
+logging:
+  level: "INFO"
+  format: "%(asctime)s | %(levelname)s | %(name)s | %(message)s"

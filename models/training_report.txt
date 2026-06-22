@@ -1,0 +1,5 @@
+BioVision AI Training Report
+Dataset rows: 31999
+Features: ['Elbow_Angle', 'Shoulder_Angle', 'Hip_Angle', 'Knee_Angle']
+Best comparison model: Random Forest (87.95%)
+Saved primary model: Random Forest

@@ -1,0 +1,30 @@
+========================================================================
+  BIOVISION AI — SESSION ANALYTICS REPORT
+========================================================================
+Exercise     : Pushups
+Frames       : 1192
+Reps         : 36
+
+Form Score: 68/100
+ROM: 100 | Stability: 0 | Symmetry: 80 | Tempo: 100 | Posture: 67
+
+Stability    : 0.0
+Symmetry     : 80.1
+Smoothness   : 0.0
+Tempo        : 100.0
+
+Range of Motion:
+  Elbow_Angle: 166.04°
+  Knee_Angle: 174.08°
+  Hip_Angle: 173.18°
+  Shoulder_Angle: 178.41°
+
+Error Frequency:
+  hip_sag_detected: 1130
+  insufficient_depth: 850
+  hips_sagging_or_piking: 762
+  knees_bent: 493
+  shoulders_flaring_or_collapsing: 321
+  elbow_flare: 267
+  elbow_not_reaching_90_or_not_extending: 29
+========================================================================

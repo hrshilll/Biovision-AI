@@ -1,0 +1,460 @@
+Frame,Exercise,Elbow_Angle,Shoulder_Angle,Hip_Angle,Knee_Angle,Form,ML_Prediction,Confidence_Pct,Reps,Issues
+22,Bicep_curls,146.7,67.9,8.9,34.8,Bad,Bad,98.5,0,Upper arm swinging — using momentum; Leaning back — using body swing; Knees bending — unstable base
+23,Bicep_curls,158.4,140.9,13.5,101.1,Bad,Bad,98.0,0,Upper arm swinging — using momentum; Leaning back — using body swing; Knees bending — unstable base
+24,Bicep_curls,168.0,147.2,47.3,17.7,Bad,Bad,94.0,0,Incomplete elbow range of motion; Upper arm swinging — using momentum; Leaning back — using body swing; Knees bending — unstable base
+25,Bicep_curls,131.4,23.5,113.9,38.7,Bad,Bad,89.2,0,Leaning back — using body swing; Knees bending — unstable base
+26,Bicep_curls,179.1,0.1,96.4,40.6,Bad,Bad,88.8,0,Incomplete elbow range of motion; Leaning back — using body swing; Knees bending — unstable base
+27,Bicep_curls,174.3,0.7,176.6,25.0,Bad,Bad,86.6,0,Incomplete elbow range of motion; Knees bending — unstable base
+28,Bicep_curls,165.2,3.4,176.7,20.4,Bad,Bad,87.7,0,Incomplete elbow range of motion; Knees bending — unstable base
+57,Bicep_curls,167.5,1.8,179.5,175.2,Bad,Bad,84.3,0,Incomplete elbow range of motion
+58,Bicep_curls,167.2,3.6,179.4,175.1,Bad,Bad,78.7,0,Incomplete elbow range of motion
+59,Bicep_curls,166.3,4.4,179.7,176.7,Bad,Bad,75.2,0,Incomplete elbow range of motion
+60,Bicep_curls,165.4,5.1,179.4,177.0,Bad,Bad,73.4,0,Incomplete elbow range of motion
+61,Bicep_curls,164.2,6.7,180.0,175.9,Bad,Bad,73.7,0,Incomplete elbow range of motion
+62,Bicep_curls,163.6,8.2,180.0,174.9,Bad,Bad,73.4,0,Incomplete elbow range of motion
+63,Bicep_curls,163.8,8.7,178.4,175.6,Bad,Bad,73.9,0,Incomplete elbow range of motion
+64,Bicep_curls,164.4,8.3,177.9,175.7,Bad,Bad,72.6,0,Incomplete elbow range of motion
+65,Bicep_curls,164.9,7.8,176.9,177.7,Bad,Bad,76.0,0,Incomplete elbow range of motion
+66,Bicep_curls,164.6,7.8,177.3,177.0,Bad,Bad,80.0,0,Incomplete elbow range of motion
+67,Bicep_curls,164.4,7.2,176.6,178.2,Bad,Bad,82.8,0,Incomplete elbow range of motion
+68,Bicep_curls,162.0,8.0,176.8,177.4,Bad,Bad,85.7,0,Incomplete elbow range of motion
+69,Bicep_curls,153.1,8.2,178.1,176.0,Good,Bad,87.9,0,
+70,Bicep_curls,137.1,8.0,176.1,179.2,Good,Bad,83.5,0,
+71,Bicep_curls,119.2,7.6,175.5,178.8,Good,Bad,84.0,0,
+72,Bicep_curls,102.6,6.8,175.8,178.6,Good,Bad,83.9,0,
+73,Bicep_curls,87.5,7.1,175.0,177.1,Good,Bad,85.3,0,
+74,Bicep_curls,65.6,6.8,174.4,175.9,Good,Good,86.6,0,
+91,Bicep_curls,164.6,1.6,179.8,172.5,Bad,Good,83.4,0,Incomplete elbow range of motion
+92,Bicep_curls,168.7,0.7,178.9,174.6,Bad,Good,79.9,0,Incomplete elbow range of motion
+93,Bicep_curls,170.2,0.0,177.8,176.0,Bad,Good,75.6,0,Incomplete elbow range of motion
+94,Bicep_curls,170.4,0.6,177.5,176.5,Bad,Good,75.7,0,Incomplete elbow range of motion
+95,Bicep_curls,169.3,1.1,176.9,176.9,Bad,Good,72.7,0,Incomplete elbow range of motion
+96,Bicep_curls,167.8,1.3,176.9,177.1,Bad,Good,69.7,0,Incomplete elbow range of motion
+97,Bicep_curls,167.0,1.4,177.2,176.8,Bad,Good,64.7,0,Incomplete elbow range of motion
+98,Bicep_curls,166.2,1.4,177.7,176.6,Bad,Bad,59.2,0,Incomplete elbow range of motion
+99,Bicep_curls,165.6,1.4,177.9,176.2,Bad,Bad,58.0,0,Incomplete elbow range of motion
+100,Bicep_curls,165.4,1.3,177.9,175.9,Bad,Bad,56.7,0,Incomplete elbow range of motion
+101,Bicep_curls,165.2,1.3,177.9,175.9,Bad,Bad,56.4,0,Incomplete elbow range of motion
+102,Bicep_curls,165.4,1.3,177.9,176.0,Bad,Bad,57.3,0,Incomplete elbow range of motion
+103,Bicep_curls,165.5,1.3,177.9,176.0,Bad,Good,57.1,0,Incomplete elbow range of motion
+104,Bicep_curls,165.7,1.4,177.8,175.9,Bad,Good,56.8,0,Incomplete elbow range of motion
+105,Bicep_curls,165.7,1.4,177.5,176.1,Bad,Good,55.9,0,Incomplete elbow range of motion
+106,Bicep_curls,165.7,1.5,177.0,176.2,Bad,Good,57.0,0,Incomplete elbow range of motion
+107,Bicep_curls,165.7,1.6,177.0,176.5,Bad,Good,58.1,0,Incomplete elbow range of motion
+108,Bicep_curls,165.4,1.8,177.0,176.9,Bad,Good,59.5,0,Incomplete elbow range of motion
+109,Bicep_curls,165.4,2.1,177.0,176.8,Bad,Bad,61.4,0,Incomplete elbow range of motion
+110,Bicep_curls,165.2,2.3,177.4,177.2,Bad,Bad,61.9,0,Incomplete elbow range of motion
+111,Bicep_curls,164.6,2.8,178.8,175.6,Bad,Bad,61.2,0,Incomplete elbow range of motion
+112,Bicep_curls,165.1,2.4,179.6,175.2,Bad,Bad,61.9,0,Incomplete elbow range of motion
+157,Bicep_curls,171.1,1.0,177.8,178.0,Bad,Bad,62.5,0,Incomplete elbow range of motion
+158,Bicep_curls,168.7,0.0,177.1,179.9,Bad,Bad,62.0,0,Incomplete elbow range of motion
+159,Bicep_curls,165.2,1.1,177.4,179.6,Bad,Bad,61.4,0,Incomplete elbow range of motion
+160,Bicep_curls,160.7,1.9,177.7,178.9,Bad,Bad,61.6,0,Incomplete elbow range of motion
+161,Bicep_curls,156.8,0.7,176.1,168.1,Good,Bad,61.3,0,
+162,Bicep_curls,149.9,1.0,177.7,168.6,Good,Bad,64.2,0,
+163,Bicep_curls,140.0,0.5,178.4,170.0,Good,Bad,67.1,0,
+164,Bicep_curls,126.3,0.0,179.2,171.8,Good,Bad,67.3,0,
+165,Bicep_curls,112.1,0.2,179.7,172.5,Good,Bad,68.1,0,
+166,Bicep_curls,99.0,0.0,179.4,173.3,Good,Good,67.5,0,
+167,Bicep_curls,82.2,0.5,179.4,172.6,Good,Good,70.2,0,
+168,Bicep_curls,67.8,0.6,179.2,173.3,Good,Good,70.6,0,
+169,Bicep_curls,58.2,0.6,179.8,171.8,Good,Good,69.6,0,
+170,Bicep_curls,49.6,0.1,178.6,168.2,Good,Good,66.2,0,
+171,Bicep_curls,44.4,0.1,177.1,163.8,Good,Good,63.2,0,
+172,Bicep_curls,38.5,0.9,177.7,164.2,Good,Good,62.4,0,
+173,Bicep_curls,34.3,1.1,178.0,163.8,Good,Good,61.1,0,
+174,Bicep_curls,30.1,1.3,178.2,164.6,Good,Good,61.6,0,
+175,Bicep_curls,25.3,1.4,178.6,165.2,Good,Good,58.7,0,
+176,Bicep_curls,22.4,2.4,178.9,166.5,Good,Good,56.5,0,
+177,Bicep_curls,19.7,3.1,178.0,163.9,Bad,Good,56.8,0,Incomplete elbow range of motion
+178,Bicep_curls,18.8,3.3,177.8,162.3,Bad,Good,56.6,0,Incomplete elbow range of motion
+179,Bicep_curls,18.7,3.7,177.4,160.7,Bad,Good,57.3,0,Incomplete elbow range of motion
+180,Bicep_curls,18.2,4.1,177.8,160.9,Bad,Good,57.6,0,Incomplete elbow range of motion
+181,Bicep_curls,17.6,4.2,178.0,161.5,Bad,Good,59.4,0,Incomplete elbow range of motion
+182,Bicep_curls,17.5,4.3,178.0,160.6,Bad,Good,59.5,0,Incomplete elbow range of motion
+183,Bicep_curls,17.8,4.3,177.8,157.0,Bad,Good,62.3,0,Incomplete elbow range of motion
+184,Bicep_curls,18.0,4.3,177.6,155.3,Bad,Good,65.5,0,Incomplete elbow range of motion
+196,Bicep_curls,96.9,3.3,179.0,170.2,Good,Good,68.1,0,
+197,Bicep_curls,109.9,3.6,179.0,170.5,Good,Good,72.0,0,
+198,Bicep_curls,120.3,3.6,178.7,170.4,Good,Good,74.9,0,
+199,Bicep_curls,125.5,3.5,178.8,170.1,Good,Good,78.4,0,
+200,Bicep_curls,128.6,3.3,179.1,170.0,Good,Good,78.3,0,
+201,Bicep_curls,130.3,2.9,179.5,169.6,Good,Good,79.9,0,
+202,Bicep_curls,131.4,2.8,179.2,171.1,Good,Good,80.1,0,
+203,Bicep_curls,131.6,2.8,179.0,171.7,Good,Good,78.7,0,
+204,Bicep_curls,131.9,2.9,179.3,171.6,Good,Good,77.5,0,
+205,Bicep_curls,131.5,3.0,179.3,171.9,Good,Good,75.7,0,
+206,Bicep_curls,129.0,3.3,179.1,173.6,Good,Good,74.9,0,
+207,Bicep_curls,127.8,3.6,179.5,173.2,Good,Good,74.1,0,
+208,Bicep_curls,117.6,3.6,178.9,174.0,Good,Good,75.2,0,
+209,Bicep_curls,100.7,3.4,178.2,174.9,Good,Good,77.9,0,
+210,Bicep_curls,83.9,3.4,177.8,174.7,Good,Good,79.0,0,
+211,Bicep_curls,71.0,3.0,177.1,174.6,Good,Good,79.1,0,
+212,Bicep_curls,55.8,2.2,178.4,171.2,Good,Good,77.0,0,
+213,Bicep_curls,44.1,1.8,179.5,168.7,Good,Good,74.7,0,
+214,Bicep_curls,34.6,2.6,179.9,167.6,Good,Good,72.4,0,
+215,Bicep_curls,25.8,2.8,179.7,166.1,Good,Good,70.5,0,
+216,Bicep_curls,20.6,2.9,179.0,163.7,Good,Good,69.0,0,
+217,Bicep_curls,18.0,3.3,178.8,162.2,Bad,Good,65.0,0,Incomplete elbow range of motion
+218,Bicep_curls,18.5,3.7,178.6,160.4,Bad,Good,61.0,0,Incomplete elbow range of motion
+219,Bicep_curls,19.2,4.0,178.9,159.3,Bad,Good,59.9,0,Incomplete elbow range of motion
+220,Bicep_curls,18.9,4.1,178.9,159.0,Bad,Good,61.4,0,Incomplete elbow range of motion
+221,Bicep_curls,18.8,4.1,178.8,158.2,Bad,Bad,64.5,0,Incomplete elbow range of motion
+222,Bicep_curls,18.6,4.1,178.9,157.4,Bad,Bad,68.1,0,Incomplete elbow range of motion
+223,Bicep_curls,19.0,4.0,179.0,155.7,Bad,Bad,70.6,0,Incomplete elbow range of motion
+224,Bicep_curls,19.3,3.7,179.0,155.4,Bad,Bad,73.6,0,Incomplete elbow range of motion
+225,Bicep_curls,19.5,3.3,179.0,153.4,Bad,Bad,77.0,0,Incomplete elbow range of motion; Knees bending — unstable base
+226,Bicep_curls,19.7,3.2,178.8,155.3,Bad,Bad,80.9,0,Incomplete elbow range of motion
+227,Bicep_curls,20.0,3.1,178.6,156.1,Good,Bad,83.9,0,
+228,Bicep_curls,20.2,3.2,178.4,156.3,Good,Bad,86.1,0,
+229,Bicep_curls,20.3,3.2,178.2,156.9,Good,Bad,87.2,0,
+230,Bicep_curls,20.2,3.2,178.1,158.0,Good,Bad,87.6,0,
+231,Bicep_curls,20.3,3.3,178.1,158.0,Good,Bad,87.7,0,
+232,Bicep_curls,20.1,3.3,178.1,157.6,Good,Bad,87.8,0,
+233,Bicep_curls,20.1,3.3,178.4,158.4,Good,Bad,87.6,0,
+234,Bicep_curls,19.9,3.6,178.5,159.3,Bad,Bad,85.5,0,Incomplete elbow range of motion
+235,Bicep_curls,20.0,3.6,179.0,159.9,Good,Bad,82.3,0,
+236,Bicep_curls,20.1,3.7,179.2,159.7,Good,Bad,78.8,0,
+237,Bicep_curls,20.1,3.6,179.2,160.8,Good,Bad,74.0,0,
+238,Bicep_curls,20.2,3.6,178.9,160.3,Good,Bad,70.0,0,
+239,Bicep_curls,20.8,3.6,178.9,160.2,Good,Bad,66.2,0,
+240,Bicep_curls,21.4,3.7,178.9,160.2,Good,Bad,62.0,0,
+241,Bicep_curls,21.8,3.7,178.9,159.5,Good,Bad,59.9,0,
+242,Bicep_curls,21.8,3.6,178.8,159.4,Good,Bad,59.8,0,
+243,Bicep_curls,22.0,3.6,178.5,158.7,Good,Bad,62.4,0,
+244,Bicep_curls,22.1,3.5,178.1,157.6,Good,Bad,66.0,0,
+245,Bicep_curls,22.2,3.4,178.0,157.4,Good,Bad,70.5,0,
+246,Bicep_curls,22.4,3.3,178.0,157.5,Good,Bad,74.7,0,
+247,Bicep_curls,22.6,3.3,178.2,157.5,Good,Bad,78.9,0,
+248,Bicep_curls,22.8,3.3,178.2,157.4,Good,Bad,83.0,0,
+249,Bicep_curls,22.9,3.3,178.2,157.0,Good,Bad,85.3,0,
+250,Bicep_curls,23.5,3.3,178.2,156.8,Good,Bad,87.4,0,
+251,Bicep_curls,24.2,3.1,178.2,156.6,Good,Bad,88.2,0,
+252,Bicep_curls,24.8,2.9,178.1,155.9,Good,Bad,88.2,0,
+253,Bicep_curls,25.3,2.7,178.1,155.8,Good,Bad,88.4,0,
+254,Bicep_curls,25.8,2.6,178.1,156.4,Good,Bad,88.5,0,
+255,Bicep_curls,27.0,2.6,178.0,156.6,Good,Bad,88.4,0,
+256,Bicep_curls,29.1,2.4,178.1,157.6,Good,Bad,88.4,0,
+257,Bicep_curls,30.9,2.3,178.1,157.4,Good,Bad,88.3,0,
+258,Bicep_curls,32.0,2.3,178.1,157.6,Good,Bad,88.4,0,
+259,Bicep_curls,33.2,2.4,178.3,157.6,Good,Bad,88.5,0,
+260,Bicep_curls,34.3,2.4,178.8,160.4,Good,Bad,84.3,0,
+261,Bicep_curls,35.8,2.5,179.3,162.8,Good,Bad,80.6,0,
+262,Bicep_curls,37.9,2.5,179.2,163.8,Good,Bad,77.6,0,
+263,Bicep_curls,39.0,2.4,179.1,164.8,Good,Bad,74.9,0,
+264,Bicep_curls,40.4,2.1,179.2,165.6,Good,Bad,71.8,0,
+265,Bicep_curls,41.8,1.4,179.0,164.4,Good,Good,68.4,0,
+266,Bicep_curls,42.4,1.0,178.9,163.2,Good,Good,64.0,0,
+267,Bicep_curls,42.8,0.7,178.8,162.1,Good,Good,59.8,0,
+268,Bicep_curls,43.7,0.6,178.8,161.9,Good,Good,59.9,0,
+269,Bicep_curls,44.8,0.4,178.8,162.6,Good,Good,59.0,0,
+270,Bicep_curls,46.2,0.3,179.0,164.0,Good,Good,57.3,0,
+271,Bicep_curls,47.8,0.1,179.3,164.5,Good,Good,55.5,0,
+272,Bicep_curls,50.7,0.1,179.3,164.4,Good,Good,54.6,0,
+273,Bicep_curls,54.8,0.2,179.7,165.7,Good,Good,54.1,0,
+274,Bicep_curls,62.0,0.2,176.6,169.6,Good,Good,58.2,0,
+281,Bicep_curls,101.8,1.6,178.1,171.9,Good,Good,59.9,0,
+282,Bicep_curls,106.3,2.0,178.7,172.2,Good,Good,59.9,0,
+283,Bicep_curls,109.3,2.2,179.0,171.5,Good,Good,61.2,0,
+284,Bicep_curls,112.6,2.3,179.1,170.8,Good,Good,63.1,0,
+285,Bicep_curls,114.1,2.4,179.2,170.6,Good,Good,64.4,0,
+286,Bicep_curls,115.3,2.5,179.4,170.4,Good,Good,64.4,0,
+287,Bicep_curls,115.9,2.6,179.4,170.5,Good,Good,65.0,0,
+288,Bicep_curls,116.7,2.7,179.6,170.7,Good,Good,62.0,0,
+289,Bicep_curls,117.8,2.8,180.0,171.0,Good,Good,61.3,0,
+290,Bicep_curls,119.7,2.9,179.8,170.5,Good,Good,61.7,0,
+291,Bicep_curls,121.2,2.9,179.8,170.8,Good,Good,62.7,0,
+292,Bicep_curls,122.2,2.9,179.6,170.8,Good,Good,64.1,0,
+293,Bicep_curls,124.2,3.1,179.6,171.4,Good,Good,66.4,0,
+294,Bicep_curls,127.3,3.2,179.7,171.8,Good,Good,69.6,0,
+295,Bicep_curls,131.4,3.2,179.9,172.2,Good,Good,71.3,0,
+296,Bicep_curls,134.2,3.2,179.9,173.0,Good,Good,73.2,0,
+297,Bicep_curls,136.5,3.3,179.8,174.1,Good,Good,74.9,0,
+298,Bicep_curls,138.6,3.5,179.6,174.8,Good,Good,75.8,0,
+299,Bicep_curls,140.5,3.7,179.9,174.5,Good,Good,75.6,0,
+300,Bicep_curls,141.4,3.9,179.8,172.2,Good,Good,75.7,0,
+301,Bicep_curls,142.2,3.9,179.3,170.0,Good,Good,74.3,0,
+302,Bicep_curls,143.8,4.0,179.4,169.3,Good,Good,72.8,0,
+303,Bicep_curls,146.0,4.3,179.9,169.9,Good,Good,70.4,0,
+304,Bicep_curls,147.1,4.0,178.0,166.6,Good,Good,69.9,0,
+305,Bicep_curls,149.7,3.8,172.3,158.3,Good,Good,67.8,0,
+306,Bicep_curls,151.0,3.6,168.7,151.3,Bad,Good,68.7,0,Knees bending — unstable base
+307,Bicep_curls,152.2,3.5,169.3,153.1,Bad,Good,69.1,0,Knees bending — unstable base
+308,Bicep_curls,153.6,3.4,166.8,148.9,Bad,Bad,69.3,0,Knees bending — unstable base
+309,Bicep_curls,154.5,3.3,168.0,151.1,Bad,Bad,70.1,0,Knees bending — unstable base
+310,Bicep_curls,155.0,3.1,167.0,149.3,Bad,Bad,71.2,0,Knees bending — unstable base
+311,Bicep_curls,155.6,3.0,166.4,148.0,Bad,Bad,74.2,1,Knees bending — unstable base
+312,Bicep_curls,155.8,2.9,166.7,148.9,Bad,Bad,75.4,1,Knees bending — unstable base
+313,Bicep_curls,156.0,2.8,166.6,148.0,Bad,Bad,78.2,1,Knees bending — unstable base
+314,Bicep_curls,156.4,2.9,167.1,148.0,Bad,Bad,79.5,1,Knees bending — unstable base
+315,Bicep_curls,156.6,2.9,166.2,143.5,Bad,Bad,81.1,1,Knees bending — unstable base
+316,Bicep_curls,157.0,2.9,165.6,145.0,Bad,Bad,82.1,1,Knees bending — unstable base
+317,Bicep_curls,157.4,2.9,166.2,144.7,Bad,Bad,83.3,1,Knees bending — unstable base
+318,Bicep_curls,157.8,2.8,167.4,147.4,Bad,Bad,84.0,1,Knees bending — unstable base
+319,Bicep_curls,157.9,2.9,168.1,146.0,Bad,Bad,84.2,1,Knees bending — unstable base
+320,Bicep_curls,157.8,2.9,168.4,146.2,Bad,Bad,84.1,1,Knees bending — unstable base
+321,Bicep_curls,157.6,2.9,168.6,149.1,Bad,Bad,83.9,1,Knees bending — unstable base
+322,Bicep_curls,156.6,2.9,169.0,150.9,Bad,Bad,83.4,1,Knees bending — unstable base
+323,Bicep_curls,152.5,2.9,177.2,167.4,Good,Bad,79.4,1,
+324,Bicep_curls,143.9,2.9,178.8,175.6,Good,Bad,77.8,1,
+325,Bicep_curls,131.4,2.8,179.7,173.4,Good,Bad,77.0,1,
+326,Bicep_curls,117.2,2.6,179.5,170.6,Good,Bad,74.2,1,
+327,Bicep_curls,100.2,2.2,179.8,170.1,Good,Bad,73.3,1,
+328,Bicep_curls,83.4,1.9,179.6,168.2,Good,Good,75.3,1,
+329,Bicep_curls,70.4,1.5,179.8,167.4,Good,Good,76.6,1,
+330,Bicep_curls,56.3,0.5,179.3,167.8,Good,Good,74.4,1,
+331,Bicep_curls,47.3,0.0,179.7,166.6,Good,Good,74.3,1,
+332,Bicep_curls,40.2,0.1,179.7,161.8,Good,Good,71.7,1,
+333,Bicep_curls,35.6,0.6,179.5,161.5,Good,Good,69.1,1,
+334,Bicep_curls,30.8,0.6,179.5,159.8,Good,Good,69.8,1,
+335,Bicep_curls,26.5,0.5,178.0,155.8,Good,Bad,71.5,1,
+336,Bicep_curls,23.9,0.7,178.1,155.7,Good,Bad,70.5,1,
+337,Bicep_curls,23.0,0.9,177.6,154.5,Bad,Bad,70.1,1,Knees bending — unstable base
+338,Bicep_curls,22.6,1.2,177.6,155.7,Good,Bad,73.2,1,
+339,Bicep_curls,23.3,1.4,177.4,155.8,Good,Bad,77.5,1,
+340,Bicep_curls,23.9,1.6,177.3,157.1,Good,Bad,81.3,1,
+341,Bicep_curls,24.4,1.8,177.3,157.8,Good,Bad,84.7,1,
+342,Bicep_curls,24.6,2.0,177.2,157.7,Good,Bad,87.0,1,
+343,Bicep_curls,24.8,2.1,177.3,157.8,Good,Bad,86.6,1,
+344,Bicep_curls,24.8,2.0,177.5,158.5,Good,Bad,86.0,1,
+345,Bicep_curls,24.6,1.9,177.7,157.9,Good,Bad,85.6,1,
+346,Bicep_curls,23.9,1.8,178.3,159.2,Good,Bad,84.2,1,
+347,Bicep_curls,23.9,1.7,179.2,161.4,Good,Bad,79.9,1,
+348,Bicep_curls,24.4,1.6,179.5,162.1,Good,Bad,75.9,1,
+349,Bicep_curls,26.3,1.4,179.7,161.9,Good,Bad,71.6,1,
+350,Bicep_curls,29.3,1.4,180.0,162.9,Good,Bad,67.6,1,
+351,Bicep_curls,33.2,1.0,179.7,160.5,Good,Bad,64.1,1,
+352,Bicep_curls,37.3,0.7,179.5,160.7,Good,Bad,61.2,1,
+353,Bicep_curls,42.3,0.2,179.0,159.9,Good,Bad,59.1,1,
+354,Bicep_curls,46.2,0.0,178.8,159.9,Good,Bad,58.3,1,
+355,Bicep_curls,53.5,0.4,179.2,161.0,Good,Bad,59.2,1,
+360,Bicep_curls,106.8,0.6,179.5,171.4,Good,Bad,59.7,1,
+361,Bicep_curls,114.7,1.0,180.0,170.9,Good,Bad,61.7,1,
+362,Bicep_curls,123.1,1.3,179.6,172.9,Good,Bad,62.3,1,
+363,Bicep_curls,131.1,1.6,179.7,173.6,Good,Bad,64.8,1,
+364,Bicep_curls,138.0,1.9,178.8,176.2,Good,Good,67.2,1,
+365,Bicep_curls,143.6,2.3,178.9,175.2,Good,Good,69.0,1,
+366,Bicep_curls,147.8,2.8,179.2,174.3,Good,Good,70.6,1,
+367,Bicep_curls,152.9,3.0,170.3,152.5,Bad,Good,72.5,1,Knees bending — unstable base
+368,Bicep_curls,157.8,3.1,170.9,149.0,Bad,Good,75.5,2,Knees bending — unstable base
+369,Bicep_curls,163.7,3.3,167.3,138.6,Bad,Good,79.1,2,Incomplete elbow range of motion; Knees bending — unstable base
+370,Bicep_curls,167.7,3.3,168.4,141.2,Bad,Bad,83.3,2,Incomplete elbow range of motion; Knees bending — unstable base
+371,Bicep_curls,169.5,3.2,169.6,147.3,Bad,Bad,85.0,2,Incomplete elbow range of motion; Knees bending — unstable base
+372,Bicep_curls,170.0,3.2,170.2,149.7,Bad,Bad,86.1,2,Incomplete elbow range of motion; Knees bending — unstable base
+373,Bicep_curls,170.0,3.0,170.5,151.4,Bad,Bad,87.2,2,Incomplete elbow range of motion; Knees bending — unstable base
+374,Bicep_curls,169.3,2.7,173.9,159.2,Bad,Bad,86.9,2,Incomplete elbow range of motion
+375,Bicep_curls,167.8,2.5,171.2,152.1,Bad,Bad,88.6,2,Incomplete elbow range of motion; Knees bending — unstable base
+376,Bicep_curls,167.4,2.5,165.7,121.3,Bad,Bad,89.8,2,Incomplete elbow range of motion; Knees bending — unstable base
+377,Bicep_curls,160.5,2.8,166.4,140.0,Bad,Bad,89.5,2,Incomplete elbow range of motion; Knees bending — unstable base
+378,Bicep_curls,153.4,2.7,171.2,157.7,Good,Bad,86.8,2,
+379,Bicep_curls,142.2,3.0,179.6,173.2,Good,Bad,86.3,2,
+380,Bicep_curls,126.0,2.7,179.4,172.6,Good,Bad,82.8,2,
+381,Bicep_curls,108.8,2.5,179.3,169.7,Good,Bad,79.4,2,
+382,Bicep_curls,93.2,1.8,179.8,169.9,Good,Bad,80.3,2,
+383,Bicep_curls,77.0,1.3,179.4,169.9,Good,Good,81.0,2,
+384,Bicep_curls,64.9,0.8,178.8,170.6,Good,Good,80.4,2,
+385,Bicep_curls,52.7,0.1,179.5,166.7,Good,Good,76.3,2,
+386,Bicep_curls,44.8,0.2,178.3,163.8,Good,Good,74.0,2,
+387,Bicep_curls,39.0,0.2,178.0,163.3,Good,Good,69.5,2,
+388,Bicep_curls,33.6,0.7,178.1,163.0,Good,Good,68.4,2,
+389,Bicep_curls,29.3,1.0,178.0,162.7,Good,Good,66.7,2,
+390,Bicep_curls,27.0,1.1,177.4,161.0,Good,Good,63.7,2,
+391,Bicep_curls,26.7,1.2,177.5,161.1,Good,Bad,59.8,2,
+392,Bicep_curls,26.7,1.2,177.2,160.6,Good,Bad,57.1,2,
+393,Bicep_curls,28.1,1.2,177.3,159.5,Good,Bad,59.8,2,
+394,Bicep_curls,29.9,1.0,177.1,159.1,Good,Bad,63.5,2,
+395,Bicep_curls,32.2,0.8,177.3,160.5,Good,Bad,65.4,2,
+396,Bicep_curls,35.8,0.4,177.4,161.7,Good,Bad,66.3,2,
+397,Bicep_curls,45.5,0.1,177.9,163.5,Good,Bad,66.8,2,
+398,Bicep_curls,64.9,0.7,179.4,170.0,Good,Bad,69.4,2,
+399,Bicep_curls,83.3,1.4,178.1,173.2,Good,Bad,71.1,2,
+400,Bicep_curls,100.8,1.7,177.8,174.7,Good,Bad,71.8,2,
+401,Bicep_curls,115.7,2.1,178.7,171.3,Good,Bad,69.6,2,
+402,Bicep_curls,124.6,2.6,177.8,174.4,Good,Good,69.3,2,
+403,Bicep_curls,135.4,2.5,178.5,173.2,Good,Good,70.6,2,
+404,Bicep_curls,143.0,2.8,178.5,173.2,Good,Good,73.2,2,
+405,Bicep_curls,152.2,3.4,174.1,161.7,Good,Good,75.5,2,
+406,Bicep_curls,160.0,4.0,171.7,156.1,Good,Good,75.6,3,
+407,Bicep_curls,167.0,4.5,173.8,159.9,Bad,Good,75.6,3,Incomplete elbow range of motion
+408,Bicep_curls,172.0,4.0,175.6,163.6,Bad,Good,74.6,3,Incomplete elbow range of motion
+409,Bicep_curls,175.3,3.5,176.8,165.6,Bad,Good,73.4,3,Incomplete elbow range of motion
+410,Bicep_curls,177.6,2.4,178.6,166.1,Bad,Good,71.3,3,Incomplete elbow range of motion
+411,Bicep_curls,178.5,1.5,179.5,166.9,Bad,Good,70.7,3,Incomplete elbow range of motion
+412,Bicep_curls,179.0,1.0,179.9,167.2,Bad,Good,69.8,3,Incomplete elbow range of motion
+413,Bicep_curls,178.8,0.4,179.0,163.5,Bad,Good,69.6,3,Incomplete elbow range of motion
+414,Bicep_curls,178.8,0.4,178.3,163.2,Bad,Good,67.6,3,Incomplete elbow range of motion
+415,Bicep_curls,178.1,0.4,178.5,164.8,Bad,Good,66.9,3,Incomplete elbow range of motion
+416,Bicep_curls,177.6,0.5,178.9,165.8,Bad,Good,68.1,3,Incomplete elbow range of motion
+417,Bicep_curls,177.6,0.8,179.1,171.1,Bad,Good,72.0,3,Incomplete elbow range of motion
+418,Bicep_curls,177.6,1.0,178.2,172.7,Bad,Good,73.3,3,Incomplete elbow range of motion
+419,Bicep_curls,177.3,1.0,178.4,172.0,Bad,Good,74.3,3,Incomplete elbow range of motion
+420,Bicep_curls,177.2,1.0,178.5,171.8,Bad,Good,75.2,3,Incomplete elbow range of motion
+421,Bicep_curls,177.2,1.2,179.0,171.1,Bad,Good,76.7,3,Incomplete elbow range of motion
+422,Bicep_curls,177.2,1.5,179.4,170.3,Bad,Good,77.2,3,Incomplete elbow range of motion
+423,Bicep_curls,177.3,1.7,179.3,169.9,Bad,Good,77.3,3,Incomplete elbow range of motion
+424,Bicep_curls,177.3,1.9,178.8,171.8,Bad,Good,77.7,3,Incomplete elbow range of motion
+425,Bicep_curls,177.3,2.0,178.4,173.2,Bad,Good,75.4,3,Incomplete elbow range of motion
+426,Bicep_curls,177.3,2.1,178.5,173.0,Bad,Good,74.6,3,Incomplete elbow range of motion
+427,Bicep_curls,177.5,1.9,178.4,172.9,Bad,Good,73.1,3,Incomplete elbow range of motion
+428,Bicep_curls,177.5,1.9,178.2,173.7,Bad,Good,71.2,3,Incomplete elbow range of motion
+429,Bicep_curls,177.6,2.0,177.9,174.5,Bad,Good,68.4,3,Incomplete elbow range of motion
+430,Bicep_curls,177.7,2.0,178.1,174.1,Bad,Good,67.1,3,Incomplete elbow range of motion
+431,Bicep_curls,178.0,2.2,178.5,173.3,Bad,Good,66.8,3,Incomplete elbow range of motion
+432,Bicep_curls,178.0,2.1,179.4,171.1,Bad,Good,66.8,3,Incomplete elbow range of motion
+433,Bicep_curls,177.4,1.7,179.9,169.9,Bad,Good,67.4,3,Incomplete elbow range of motion
+434,Bicep_curls,177.0,1.6,179.7,169.7,Bad,Good,68.1,3,Incomplete elbow range of motion
+435,Bicep_curls,177.1,1.7,179.8,170.4,Bad,Good,68.5,3,Incomplete elbow range of motion
+436,Bicep_curls,177.1,1.7,179.9,170.7,Bad,Good,69.5,3,Incomplete elbow range of motion
+437,Bicep_curls,177.2,1.7,179.9,171.0,Bad,Good,71.3,3,Incomplete elbow range of motion
+438,Bicep_curls,177.2,1.7,179.8,171.0,Bad,Good,72.8,3,Incomplete elbow range of motion
+439,Bicep_curls,177.2,1.7,179.9,170.3,Bad,Good,73.2,3,Incomplete elbow range of motion
+440,Bicep_curls,177.3,1.8,179.8,171.0,Bad,Good,73.2,3,Incomplete elbow range of motion
+441,Bicep_curls,177.5,2.0,179.9,170.9,Bad,Good,73.6,3,Incomplete elbow range of motion
+442,Bicep_curls,177.2,2.1,179.9,170.9,Bad,Good,73.5,3,Incomplete elbow range of motion
+443,Bicep_curls,176.6,2.3,179.5,170.5,Bad,Good,73.6,3,Incomplete elbow range of motion
+444,Bicep_curls,175.6,2.4,178.0,168.0,Bad,Good,72.0,3,Incomplete elbow range of motion
+445,Bicep_curls,174.0,2.5,177.3,165.9,Bad,Good,69.7,3,Incomplete elbow range of motion
+446,Bicep_curls,170.3,2.7,174.9,161.1,Bad,Good,68.0,3,Incomplete elbow range of motion
+447,Bicep_curls,163.8,3.4,168.8,147.8,Bad,Good,70.3,3,Incomplete elbow range of motion; Knees bending — unstable base
+448,Bicep_curls,154.7,4.2,170.6,153.7,Bad,Good,70.4,3,Knees bending — unstable base
+449,Bicep_curls,142.7,5.4,176.2,165.5,Good,Good,72.7,3,
+450,Bicep_curls,126.2,5.4,177.7,168.5,Good,Good,76.0,3,
+451,Bicep_curls,109.0,4.6,178.2,169.8,Good,Good,78.7,3,
+452,Bicep_curls,91.7,3.4,179.2,171.4,Good,Good,82.6,3,
+453,Bicep_curls,76.9,2.9,179.8,171.7,Good,Good,87.1,3,
+454,Bicep_curls,63.4,1.6,179.6,172.8,Good,Good,87.6,3,
+455,Bicep_curls,56.0,1.1,179.3,172.3,Good,Good,82.6,3,
+456,Bicep_curls,50.4,0.7,178.9,172.2,Good,Good,79.8,3,
+457,Bicep_curls,45.4,0.5,179.3,169.7,Good,Good,74.8,3,
+458,Bicep_curls,40.8,0.5,180.0,168.0,Good,Good,69.5,3,
+459,Bicep_curls,37.4,0.8,180.0,168.4,Good,Bad,64.0,3,
+460,Bicep_curls,35.3,1.0,179.4,169.3,Good,Bad,58.8,3,
+461,Bicep_curls,34.5,1.1,179.4,168.7,Good,Bad,53.7,3,
+462,Bicep_curls,34.3,1.4,179.9,167.6,Good,Bad,52.3,3,
+463,Bicep_curls,34.6,1.6,179.4,166.0,Good,Bad,53.5,3,
+464,Bicep_curls,34.4,1.8,179.3,165.7,Good,Bad,54.1,3,
+465,Bicep_curls,34.1,2.1,179.3,165.4,Good,Good,55.5,3,
+466,Bicep_curls,34.3,2.1,179.2,165.0,Good,Good,56.3,3,
+467,Bicep_curls,34.9,2.3,179.1,165.0,Good,Good,57.9,3,
+468,Bicep_curls,36.2,2.0,178.6,164.4,Good,Good,59.3,3,
+469,Bicep_curls,42.9,1.8,178.1,164.4,Good,Good,60.3,3,
+470,Bicep_curls,56.9,1.8,178.8,172.0,Good,Good,60.4,3,
+471,Bicep_curls,75.6,2.2,177.4,175.6,Good,Good,62.7,3,
+472,Bicep_curls,96.6,2.4,178.0,175.5,Good,Good,65.0,3,
+473,Bicep_curls,116.7,2.7,178.7,175.3,Good,Good,65.7,3,
+474,Bicep_curls,127.9,3.3,179.3,174.6,Good,Good,67.0,3,
+475,Bicep_curls,140.1,3.7,179.0,175.2,Good,Good,66.9,3,
+476,Bicep_curls,148.5,3.9,179.0,173.8,Good,Good,66.4,3,
+477,Bicep_curls,156.7,3.4,171.1,153.5,Bad,Good,68.6,4,Knees bending — unstable base
+478,Bicep_curls,160.3,3.1,168.4,149.4,Bad,Good,72.3,4,Incomplete elbow range of motion; Knees bending — unstable base
+479,Bicep_curls,164.2,2.9,166.3,142.8,Bad,Good,73.7,4,Incomplete elbow range of motion; Knees bending — unstable base
+480,Bicep_curls,165.6,2.4,165.4,141.7,Bad,Bad,75.2,4,Incomplete elbow range of motion; Knees bending — unstable base
+481,Bicep_curls,165.5,2.3,167.0,144.4,Bad,Bad,78.3,4,Incomplete elbow range of motion; Knees bending — unstable base
+482,Bicep_curls,163.2,2.2,165.2,141.0,Bad,Bad,80.9,4,Incomplete elbow range of motion; Knees bending — unstable base
+483,Bicep_curls,160.5,2.1,166.4,147.6,Bad,Bad,84.2,4,Incomplete elbow range of motion; Knees bending — unstable base
+484,Bicep_curls,152.8,2.1,168.9,151.9,Bad,Bad,86.0,4,Knees bending — unstable base
+485,Bicep_curls,144.5,2.5,176.5,165.2,Good,Bad,87.8,4,
+486,Bicep_curls,129.4,2.6,179.0,169.8,Good,Bad,85.0,4,
+487,Bicep_curls,111.9,2.7,179.1,169.8,Good,Bad,81.4,4,
+488,Bicep_curls,94.8,2.6,179.6,170.0,Good,Bad,81.5,4,
+489,Bicep_curls,73.7,2.2,179.6,170.0,Good,Good,82.1,4,
+490,Bicep_curls,61.8,1.4,179.7,168.5,Good,Good,80.8,4,
+491,Bicep_curls,43.8,0.3,179.7,166.8,Good,Good,76.3,4,
+492,Bicep_curls,33.1,0.9,179.8,165.6,Good,Good,74.0,4,
+493,Bicep_curls,23.4,2.1,179.8,166.0,Good,Good,70.5,4,
+494,Bicep_curls,22.0,2.2,178.8,164.1,Good,Good,70.6,4,
+495,Bicep_curls,27.0,2.0,178.2,161.8,Good,Good,69.4,4,
+496,Bicep_curls,35.2,1.8,177.8,162.5,Good,Good,64.3,4,
+497,Bicep_curls,40.6,1.0,179.3,165.7,Good,Good,59.4,4,
+498,Bicep_curls,69.2,1.7,176.9,176.2,Good,Good,58.9,4,
+499,Bicep_curls,108.5,2.2,178.7,174.2,Good,Good,59.5,4,
+500,Bicep_curls,131.5,2.9,179.8,173.9,Good,Good,62.5,4,
+501,Bicep_curls,144.1,3.7,180.0,171.9,Good,Good,64.8,4,
+502,Bicep_curls,156.3,3.7,170.5,154.9,Bad,Good,67.0,5,Knees bending — unstable base
+503,Bicep_curls,166.3,2.7,171.3,155.9,Bad,Good,71.8,5,Incomplete elbow range of motion
+504,Bicep_curls,169.2,1.6,173.2,160.1,Bad,Good,73.6,5,Incomplete elbow range of motion
+505,Bicep_curls,169.8,0.5,179.2,170.1,Bad,Good,75.4,5,Incomplete elbow range of motion
+506,Bicep_curls,169.1,0.1,178.8,173.9,Bad,Good,74.2,5,Incomplete elbow range of motion
+507,Bicep_curls,166.6,0.4,178.9,174.1,Bad,Good,75.6,5,Incomplete elbow range of motion
+508,Bicep_curls,164.1,0.0,179.5,170.4,Bad,Good,74.5,5,Incomplete elbow range of motion
+509,Bicep_curls,159.4,1.7,170.9,154.7,Bad,Bad,74.3,5,Knees bending — unstable base
+510,Bicep_curls,152.9,2.7,173.2,159.4,Good,Bad,71.0,5,
+511,Bicep_curls,136.7,3.7,177.1,166.1,Good,Good,70.9,5,
+512,Bicep_curls,115.8,4.1,178.4,169.3,Good,Good,74.5,5,
+513,Bicep_curls,97.3,5.1,178.6,169.1,Good,Good,77.3,5,
+514,Bicep_curls,75.6,6.5,179.6,169.7,Good,Good,81.2,5,
+515,Bicep_curls,51.1,7.8,178.9,162.3,Good,Good,82.3,5,
+516,Bicep_curls,38.2,12.4,179.0,165.4,Good,Good,82.8,5,
+517,Bicep_curls,34.5,24.6,177.9,172.5,Good,Good,80.0,5,
+518,Bicep_curls,40.9,48.1,178.9,152.8,Bad,Good,82.6,5,Upper arm swinging — using momentum; Knees bending — unstable base
+519,Bicep_curls,50.3,76.4,179.9,155.1,Bad,Good,83.2,5,Upper arm swinging — using momentum
+520,Bicep_curls,59.7,101.8,178.6,159.6,Bad,Good,83.4,5,Upper arm swinging — using momentum
+521,Bicep_curls,66.2,116.9,178.2,166.6,Bad,Bad,83.2,5,Upper arm swinging — using momentum
+522,Bicep_curls,60.6,127.5,178.0,167.7,Bad,Bad,82.1,5,Upper arm swinging — using momentum
+523,Bicep_curls,57.5,129.7,179.1,164.4,Bad,Bad,83.9,5,Upper arm swinging — using momentum
+524,Bicep_curls,61.2,125.0,179.3,166.3,Bad,Bad,86.2,5,Upper arm swinging — using momentum
+525,Bicep_curls,65.5,123.6,179.6,162.4,Bad,Bad,90.9,5,Upper arm swinging — using momentum
+526,Bicep_curls,61.3,121.7,178.9,167.9,Bad,Bad,92.3,5,Upper arm swinging — using momentum
+527,Bicep_curls,59.9,118.9,177.5,171.8,Bad,Bad,90.4,5,Upper arm swinging — using momentum
+528,Bicep_curls,58.0,117.8,177.9,170.5,Bad,Bad,89.2,5,Upper arm swinging — using momentum
+529,Bicep_curls,57.4,115.2,177.8,172.4,Bad,Bad,85.8,5,Upper arm swinging — using momentum
+530,Bicep_curls,61.2,116.7,178.2,171.8,Bad,Bad,84.0,5,Upper arm swinging — using momentum
+531,Bicep_curls,64.4,115.4,176.8,174.9,Bad,Bad,80.1,5,Upper arm swinging — using momentum
+532,Bicep_curls,64.1,113.6,177.0,174.6,Bad,Bad,76.0,5,Upper arm swinging — using momentum
+533,Bicep_curls,63.8,108.8,177.1,174.4,Bad,Bad,72.2,5,Upper arm swinging — using momentum
+534,Bicep_curls,61.4,97.7,177.5,171.8,Bad,Bad,71.4,5,Upper arm swinging — using momentum
+535,Bicep_curls,48.4,70.6,178.5,171.0,Bad,Bad,70.2,5,Upper arm swinging — using momentum
+536,Bicep_curls,35.7,49.2,177.2,175.9,Bad,Bad,69.7,5,Upper arm swinging — using momentum
+537,Bicep_curls,29.1,34.5,177.6,175.1,Good,Bad,68.3,5,
+538,Bicep_curls,27.5,26.5,176.8,178.2,Good,Bad,67.9,5,
+539,Bicep_curls,27.4,20.3,175.8,176.8,Good,Bad,66.6,5,
+540,Bicep_curls,26.3,14.9,177.1,178.9,Good,Bad,67.4,5,
+541,Bicep_curls,25.6,9.6,177.4,176.3,Good,Bad,69.3,5,
+542,Bicep_curls,28.2,4.4,178.3,171.6,Good,Bad,66.2,5,
+543,Bicep_curls,32.3,0.3,179.6,161.4,Good,Bad,64.7,5,
+544,Bicep_curls,37.0,3.0,178.9,156.3,Good,Bad,65.7,5,
+545,Bicep_curls,38.8,3.6,178.0,160.4,Good,Bad,65.6,5,
+547,Bicep_curls,33.5,0.9,179.0,169.6,Good,Bad,63.2,5,
+548,Bicep_curls,25.2,9.8,179.5,173.2,Good,Bad,65.3,5,
+549,Bicep_curls,23.9,19.9,178.8,172.1,Good,Bad,64.1,5,
+550,Bicep_curls,25.0,30.5,178.0,170.9,Good,Bad,62.9,5,
+551,Bicep_curls,28.5,39.3,178.6,171.6,Good,Bad,63.0,5,
+552,Bicep_curls,28.7,40.2,178.3,170.6,Bad,Bad,62.7,5,Upper arm swinging — using momentum
+553,Bicep_curls,26.7,36.8,177.4,167.3,Good,Bad,60.7,5,
+554,Bicep_curls,27.3,33.9,176.9,162.1,Good,Bad,62.8,5,
+555,Bicep_curls,27.6,30.7,178.2,164.0,Good,Bad,65.4,5,
+556,Bicep_curls,27.6,30.4,179.5,167.1,Good,Bad,66.1,5,
+557,Bicep_curls,28.3,31.0,179.9,166.3,Good,Bad,67.6,5,
+558,Bicep_curls,30.6,36.0,178.7,165.3,Good,Bad,68.0,5,
+559,Bicep_curls,31.9,40.0,177.6,169.3,Good,Bad,68.4,5,
+560,Bicep_curls,32.8,44.0,178.1,168.4,Bad,Bad,69.1,5,Upper arm swinging — using momentum
+561,Bicep_curls,33.1,45.7,178.4,168.4,Bad,Bad,67.6,5,Upper arm swinging — using momentum
+562,Bicep_curls,32.9,44.3,177.7,169.7,Bad,Bad,65.7,5,Upper arm swinging — using momentum
+563,Bicep_curls,31.8,41.6,177.9,169.6,Bad,Bad,63.3,5,Upper arm swinging — using momentum
+564,Bicep_curls,28.7,33.9,178.0,172.5,Good,Bad,61.4,5,
+565,Bicep_curls,25.4,24.0,177.6,175.9,Good,Bad,60.9,5,
+566,Bicep_curls,22.5,12.5,177.1,172.1,Good,Bad,60.1,5,
+567,Bicep_curls,31.1,4.5,179.5,160.2,Good,Bad,59.8,5,
+568,Bicep_curls,44.8,4.9,179.1,159.8,Good,Bad,58.7,5,
+569,Bicep_curls,75.2,8.0,178.2,160.7,Good,Bad,61.8,5,
+570,Bicep_curls,108.7,6.0,177.3,160.4,Good,Bad,63.6,5,
+571,Bicep_curls,131.9,4.5,178.6,165.5,Good,Good,68.4,5,
+572,Bicep_curls,142.5,3.6,178.6,167.0,Good,Good,69.9,5,
+573,Bicep_curls,151.2,3.0,178.0,168.4,Good,Good,68.2,5,
+574,Bicep_curls,155.5,3.3,175.1,166.3,Good,Good,66.9,6,
+575,Bicep_curls,158.0,3.6,173.9,165.2,Good,Good,66.8,6,
+576,Bicep_curls,162.2,3.9,172.6,163.4,Bad,Good,67.3,6,Incomplete elbow range of motion
+577,Bicep_curls,162.3,4.9,177.7,175.1,Bad,Good,68.1,6,Incomplete elbow range of motion
+578,Bicep_curls,159.3,8.0,179.3,177.4,Good,Good,71.1,6,
+579,Bicep_curls,156.0,10.5,177.1,178.7,Good,Bad,69.3,6,
+580,Bicep_curls,154.0,12.9,177.6,172.0,Good,Bad,70.3,6,
+581,Bicep_curls,155.9,14.1,177.7,166.2,Good,Bad,70.9,6,
+582,Bicep_curls,159.4,13.9,177.3,172.1,Good,Bad,73.3,6,
+583,Bicep_curls,163.6,13.4,175.6,176.9,Bad,Bad,73.6,6,Incomplete elbow range of motion
+584,Bicep_curls,165.2,13.9,174.9,177.1,Bad,Bad,73.2,6,Incomplete elbow range of motion
+585,Bicep_curls,166.9,14.4,174.9,177.5,Bad,Bad,68.4,6,Incomplete elbow range of motion
+586,Bicep_curls,169.0,14.9,174.5,177.9,Bad,Bad,63.5,6,Incomplete elbow range of motion
+587,Bicep_curls,171.3,14.5,174.1,179.9,Bad,Bad,60.4,6,Incomplete elbow range of motion
+588,Bicep_curls,173.3,14.3,174.1,178.4,Bad,Bad,57.0,6,Incomplete elbow range of motion
+589,Bicep_curls,174.0,14.2,173.6,176.8,Bad,Bad,56.7,6,Incomplete elbow range of motion
+590,Bicep_curls,174.7,14.0,173.9,177.2,Bad,Bad,54.5,6,Incomplete elbow range of motion

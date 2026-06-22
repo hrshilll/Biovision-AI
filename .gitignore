@@ -1,0 +1,16 @@
+.DS_Store
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Raw exercise recordings (large); keep locally under Data/
+Data/
+*.mp4
+*.mov
+*.MOV
+
+# Local IDE / agent artifacts
+.cursor/
+assets/

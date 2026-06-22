@@ -1,0 +1,46 @@
+========================================================================
+  BIOVISION AI — MODEL COMPARISON REPORT
+========================================================================
+Dataset rows: 31999
+
+Model: Random Forest
+  Test Accuracy : 87.95%
+  CV Accuracy   : 61.57% ± 3.81%
+              precision    recall  f1-score   support
+
+    Bad Form       0.88      0.84      0.86      2771
+   Good Form       0.88      0.91      0.90      3629
+
+    accuracy                           0.88      6400
+   macro avg       0.88      0.87      0.88      6400
+weighted avg       0.88      0.88      0.88      6400
+
+
+Model: Gradient Boosting
+  Test Accuracy : 78.27%
+  CV Accuracy   : 58.85% ± 7.26%
+              precision    recall  f1-score   support
+
+    Bad Form       0.84      0.61      0.71      2771
+   Good Form       0.76      0.91      0.83      3629
+
+    accuracy                           0.78      6400
+   macro avg       0.80      0.76      0.77      6400
+weighted avg       0.79      0.78      0.78      6400
+
+
+Model: XGBoost
+  Test Accuracy : 86.09%
+  CV Accuracy   : 62.59% ± 4.23%
+              precision    recall  f1-score   support
+
+    Bad Form       0.87      0.79      0.83      2771
+   Good Form       0.85      0.91      0.88      3629
+
+    accuracy                           0.86      6400
+   macro avg       0.86      0.85      0.86      6400
+weighted avg       0.86      0.86      0.86      6400
+
+
+Recommended model: Random Forest (87.95% test accuracy)
+========================================================================
