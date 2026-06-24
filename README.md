@@ -218,6 +218,3 @@ pytest -v
 
 ---
 
-## License
-
-Add a `LICENSE` file in the repository if needed for coursework or publication.
